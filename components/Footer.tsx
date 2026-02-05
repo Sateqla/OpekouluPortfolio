@@ -11,7 +11,7 @@ export function Footer() {
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <GraduationCap className="text-white w-5 h-5" />
               </div>
-              <span className="font-semibold text-white">EduPortfolio</span>
+              <span className="font-semibold text-white">Ammatillisen opettajankoulutuksen portfolio</span>
             </div>
             <p className="text-slate-400 max-w-sm mb-6">
               Educator in training focused on fostering growth, curiosity, and critical thinking in the next generation of learners.

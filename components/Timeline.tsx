@@ -1,39 +1,55 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Calendar, CheckCircle2, BookOpen, GraduationCap } from 'lucide-react';
+import { BookOpen, GraduationCap, Building } from 'lucide-react';
 
 const timelineData = [
   {
-    year: '2022',
-    title: 'Foundations of Education',
+    year: '2000',
+    title: 'Ensiaskeleet lukioaikana sijaisuuksissa',
     description:
-      'Started my journey at University, focusing on educational psychology and child development.',
+      'Ensikosketus opettajan työhön tuli lukion aikana ja jälkeen, jolloin tein sijaisuuksia alakoulun luokanopettajan sijaisena ja yläkoulun aineenopettajan sijaisena.',
     icon: <BookOpen className="w-5 h-5" />,
     color: 'bg-blue-500/10 text-blue-400 border-blue-500/20',
   },
   {
-    year: '2023',
-    title: 'First Classroom Exposure',
+    year: '2001 - 2011',
+    title: 'IT-alan koulutus ja opettajuus sivutyönä',
     description:
-      'Completed my first 8-week practicum in a primary setting. Learned about lesson planning and assessment.',
-    icon: <Calendar className="w-5 h-5" />,
+      'Opiskelin ensin media- ja tietotekniikan insinööriksi Mikkelin ammattikorkeakoulussa ja tämän jälkeen tietotekniikan ja tietojohtamisen diplomi-insinööriksi Lappeenrannan teknillisessä yliopistossa. Samaan aikaan työskentelin projektiasiantuntijana ja tuntiopettajana Mikkelin ammattikorkeakoulussa.',
+    icon: <GraduationCap className="w-5 h-5" />,
     color: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
   },
   {
-    year: '2024',
-    title: 'Specialized Pedagogy',
+    year: '2011 - 2023',
+    title: 'ICT-alan työtehtävissä',
     description:
-      'Deepened knowledge in inclusive education and ESL (English as a Second Language) methodologies.',
-    icon: <CheckCircle2 className="w-5 h-5" />,
+      'Verkkosovellukset, verkkokaupat ja palvelunhallinta. Työskentelin useissa eri yrityksissä ja projekteissa, joissa vastasin erilaisten verkkosovellusten ja verkkokauppojen kehittämisestä ja ylläpidosta yhdessä asiakkaiden kanssa. Toimin niin asiantuntijana, palvelupäällikkönä kuin tiiminvetäjänäkin.',
+    icon: <Building className="w-5 h-5" />,
     color: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
   },
   {
-    year: '2025',
-    title: 'Final Practicum & Research',
+    year: '2023',
+    title: 'Tietojenkäsittelyn lehtoriksi',
     description:
-      'Lead teacher for a Grade 10 English class. Developing my final thesis on student engagement.',
+      'Hakeuduin tietojenkäsittelyn lehtoriksi vuonna 2023, ja pääsin aloittamaan lehtorin tehtävissä Jamkissa elokuussa 2023. Päävastuualeinani ovat ICT-palvelun- ja projektinhallinta, UX sekä web-sovelluskehityksen perusteet. Lisäksi toimin opinnäytetöiden ohjaajana ja osallistun opetussuunnitelmatyöhön sekä palvelutuotantoon ja projektityöhön',
     icon: <GraduationCap className="w-5 h-5" />,
     color: 'bg-orange-500/10 text-orange-400 border-orange-500/20',
+  },
+  {
+    year: '2024',
+    title: 'Ammatilliset opettajaopinnot',
+    description:
+      'Aloitin opinnot jo 2023 avoimen ammattikorkeakoulun kautta, mutta pätevyyteen johtavan koulutuksen pääsin aloittamaan syksyllä 2024. Opinnot etenevät monimuoto-opiskeluna ja sisältävät sekä lähi- että etäopiskelua. ',
+    icon: <GraduationCap className="w-5 h-5" />,
+    color: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
+  },
+  {
+    year: '2026',
+    title: 'Opettajana ja kouluttajana kehittyminen ja ammattitaidon ylläpitäminen',
+    description:
+      'Jatkan unelma-ammatissani. Pedagogisesti jatkan uusien keinojen etsimistä vaikeiden asioiden opettamiseksi. Erityisesti tekoäly tuo sekä opettajan työhöni että ammattialalle täysin uudenlaisia työmalleja, jotka erityisesti pedagogisesta näkökulmasta kiinnostavat tällä hetkellä. Tavoitteeni on ylläpitää yritysyhteyksiä ja tehdä projekteja myös työelämään ammattitaidon ja kontaktien ylläpitämiseksi.',
+    icon: <BookOpen className="w-5 h-5" />,
+    color: 'bg-blue-500/10 text-blue-400 border-blue-500/20',
   },
 ];
 
@@ -43,11 +59,10 @@ export function Timeline() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-white mb-4">
-            My Academic Journey
+            Opettajuuden polku
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto">
-            A chronological look at how I've evolved from a student of education
-            into a professional educator.
+            Alla matkani opettajana alkujuurista ammattialan työkokemuksen kautta ammatilliseksi opettajaksi.
           </p>
         </div>
 

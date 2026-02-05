@@ -69,8 +69,8 @@ export function LearningGrid() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
           <div>
-            <h2 className="text-3xl font-bold text-white mb-4">Learning Log</h2>
-            <p className="text-slate-400">A collection of theories, methods, and concepts mastered throughout my studies.</p>
+            <h2 className="text-3xl font-bold text-white mb-4">Oppimispäiväkirjasta</h2>
+            <p className="text-slate-400">Teorioita, menetelmiä ja konsepteja joita opiskelin ja sovellan opetustyössäni. Opintojen kulkua, harjoittelua ja niistä syntyneitä oivalluksia.</p>
           </div>
           
           <div className="flex flex-wrap gap-2">

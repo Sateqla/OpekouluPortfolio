@@ -10,15 +10,15 @@ export function Navbar() {
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
               <GraduationCap className="text-white w-5 h-5" />
             </div>
-            <span className="font-semibold text-white tracking-tight">Teacher Portfolio</span>
+            <span className="font-semibold text-white tracking-tight">Opettajan portfolio: Heikki Sateila</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">About</a>
-            <a href="#timeline" className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">Journey</a>
-            <a href="#themes" className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">Themes</a>
-            <a href="#learnings" className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">Learning Log</a>
+            <a href="#about" className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">Tietoja</a>
+            <a href="#timeline" className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">Koulutus ja kokemus</a>
+            <a href="#themes" className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">Opetuksen teemat</a>
+            <a href="#learnings" className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors">Opintopäiväkirja</a>
             <button className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-500 transition-all">
-              Contact Me
+              Ota yhteyttä
             </button>
           </div>
         </div>

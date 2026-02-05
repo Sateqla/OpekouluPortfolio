@@ -77,9 +77,9 @@ export function TeachingThemes() {
     <section id="themes" className="py-24 px-4 bg-slate-950">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">Core Teaching Perspectives</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Opetustyöni perusperiaatteet</h2>
           <p className="text-slate-400 max-w-2xl">
-            My teaching philosophy is built upon three pillars that guide my classroom practice and student interactions.
+            Opetustyöni rakentuu kolmelle peruspilarille, jotka ohjaavat toimintaani luennoilla, verkkokursseilla ja toiminnassa opiskelijoiden kanssa ylipäänsä.
           </p>
         </div>
 

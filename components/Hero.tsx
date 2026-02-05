@@ -13,21 +13,20 @@ export function Hero() {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-sm font-semibold mb-6 border border-blue-500/20">
-              Teacher Candidate Portfolio
+              Ammatillisen opettajankoulutuksen portfolio
             </span>
             <h1 className="text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6">
-              Shaping the future through <span className="text-blue-500">empathy & innovation.</span>
+              Henkilökohtaista kehittymistä <span className="text-blue-500">empatian ja teknologiaosaamisen</span> kautta.
             </h1>
             <p className="text-xl text-slate-400 leading-relaxed mb-8 max-w-xl">
-              I am a dedicated teacher-in-training passionate about creating inclusive, 
-              tech-forward learning environments where every student feels empowered to reach their full potential.
+              Olen ohjelmistokehityksen ja palvelunhallinnan työkokemuksen omaava ammatillinen opettaja, ja innostunut luomaan inklusiivisia, viimeisimpään teknologiaan ja työelämäkäytäntöihin  sekä -tarpeisiin perustuvia opintoja joissa kaikki opiskelijat tuntevat itsensä tervetulleiksi ja pystyvät kehittymään parhaimpaansa.
             </p>
             <div className="flex flex-wrap gap-4">
               <button className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-500 transition-all shadow-lg shadow-blue-900/20">
-                View My Journey
+                Matka opettajana
               </button>
               <button className="bg-slate-900 border-2 border-slate-800 text-slate-300 px-8 py-4 rounded-xl font-semibold hover:border-slate-700 hover:bg-slate-800 transition-all">
-                Download Resume
+                Lataa ansioluettelo
               </button>
             </div>
           </motion.div>
@@ -39,19 +38,19 @@ export function Hero() {
           >
             <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500 border-4 border-slate-800">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1758685848001-0396a85ba84f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
-                alt="Teacher Portrait"
+                src="https://tiko.jamk.fi/~hsateila/files/SATEHE-iso.jpg"
+                alt="Heikki Sateilan muotokuva"
                 className="w-full aspect-[4/5] object-cover opacity-90"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl z-20 hidden sm:block">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center">
-                  <span className="text-blue-400 font-bold">4+</span>
+                  <span className="text-blue-400 font-bold">15+</span>
                 </div>
                 <div>
-                  <p className="font-bold text-white text-sm uppercase tracking-wider">Years of Study</p>
-                  <p className="text-slate-500 text-xs">Dedicated to Education</p>
+                  <p className="font-bold text-white text-sm uppercase tracking-wider">vuoden kokemus</p>
+                  <p className="text-slate-500 text-xs">Sovellusten palvelutuotannosta</p>
                 </div>
               </div>
             </div>
