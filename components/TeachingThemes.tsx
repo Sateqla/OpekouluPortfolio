@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Users, Monitor, Heart } from 'lucide-react';
@@ -11,6 +11,7 @@ const themes = [
     description: 'Believing that every student deserves a voice. I specialize in differentiated instruction that meets the diverse needs of all learners.',
     longContent: (
       <div className="space-y-4 text-slate-300">
+        <h1>Inclusive Pedagogy</h1>
         <p>My approach to inclusive pedagogy is rooted in the Universal Design for Learning (UDL) framework. I believe that education should be accessible to all, regardless of their background or learning style.</p>
         <h4 className="text-white font-bold text-lg mt-6">Key Strategies:</h4>
         <ul className="list-disc pl-5 space-y-2">
@@ -32,6 +33,7 @@ const themes = [
     description: 'Integrating technology not as a distraction, but as a bridge. I leverage digital tools to enhance collaboration and critical thinking.',
     longContent: (
       <div className="space-y-4 text-slate-300">
+        <h1>Digital Literacies</h1>
         <p>Modern education requires more than just basic computer skills; it requires digital fluency. I aim to prepare students for a world where technology is ubiquitous.</p>
         <h4 className="text-white font-bold text-lg mt-6">Implementation Focus:</h4>
         <ul className="list-disc pl-5 space-y-2">
@@ -53,6 +55,7 @@ const themes = [
     description: 'Teaching the whole child. My approach prioritizes socio-emotional learning, fostering a safe environment for empathy and resilience.',
     longContent: (
       <div className="space-y-4 text-slate-300">
+        <h1>Emotional Intelligence</h1>
         <p>A student cannot learn effectively if they do not feel safe, seen, and supported. Emotional intelligence is a prerequisite for academic success.</p>
         <h4 className="text-white font-bold text-lg mt-6">Classroom Pillars:</h4>
         <ul className="list-disc pl-5 space-y-2">
@@ -112,7 +115,7 @@ export function TeachingThemes() {
                   {theme.description}
                 </p>
                 <button className="mt-6 text-xs font-bold uppercase tracking-widest text-white/50 group-hover:text-white transition-colors">
-                  Learn More →
+                  Lue lisää →
                 </button>
               </div>
             </motion.div>
@@ -123,7 +126,6 @@ export function TeachingThemes() {
       <Modal
         isOpen={!!selectedTheme}
         onClose={() => setSelectedTheme(null)}
-        title={selectedTheme?.title || ''}
       >
         {selectedTheme?.longContent}
       </Modal>

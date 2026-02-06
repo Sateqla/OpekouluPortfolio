@@ -1,7 +1,16 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { BookOpen, PenTool, Globe, FlaskConical, Languages } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 import { Modal } from './Modal';
+
+import socraticMethod from '../content/socratic-method.md?raw';
+import bloomsTaxonomy from '../content/blooms-taxonomy.md?raw';
+import differentiatedInstruction from '../content/differentiated-instruction.md?raw';
+import inquiryBasedLearning from '../content/inquiry-based-learning.md?raw';
+import clilMethodology from '../content/clil-methodology.md?raw';
+import cooperativeLearning from '../content/cooperative-learning.md?raw';
+import diverseLearningTasks from '../content/diverse-learning-tasks.md?raw';
 
 const learnings = [
   { 
@@ -9,7 +18,7 @@ const learnings = [
     category: 'Methods', 
     title: 'The Socratic Method', 
     summary: 'Using directed inquiry to foster critical thinking.',
-    details: 'Based on the teaching style of the Greek philosopher Socrates, this method uses a series of questions to lead students to discover knowledge for themselves. It emphasizes critical thinking, logical reasoning, and the active participation of the learner in the educational process.',
+    content: socraticMethod,
     icon: <PenTool className="w-5 h-5" /> 
   },
   { 
@@ -17,7 +26,7 @@ const learnings = [
     category: 'Psychology', 
     title: 'Bloom\'s Taxonomy', 
     summary: 'Framework for categorizing educational goals.',
-    details: 'A hierarchical model used to classify educational learning objectives into levels of complexity and specificity. It moves from basic skills like Remembering and Understanding to higher-order thinking skills like Analyzing, Evaluating, and Creating.',
+    content: bloomsTaxonomy,
     icon: <BookOpen className="w-5 h-5" /> 
   },
   { 
@@ -25,7 +34,7 @@ const learnings = [
     category: 'Diversity', 
     title: 'Differentiated Instruction', 
     summary: 'Tailoring lessons to individual learning styles.',
-    details: 'The practice of modifying teaching methods to meet the diverse needs of all students in a classroom. This can involve varying the content, the activities (process), the end product, or the learning environment based on individual readiness and interests.',
+    content: differentiatedInstruction,
     icon: <Globe className="w-5 h-5" /> 
   },
   { 
@@ -33,7 +42,7 @@ const learnings = [
     category: 'Science', 
     title: 'Inquiry-Based Learning', 
     summary: 'Students learn by posing questions and solving problems.',
-    details: 'A form of active learning that starts by posing questions, problems or scenarios—rather than simply presenting established facts. Students act as researchers to find solutions, fostering deep engagement and a "learn-how-to-learn" mindset.',
+    content: inquiryBasedLearning,
     icon: <FlaskConical className="w-5 h-5" /> 
   },
   { 
@@ -41,7 +50,7 @@ const learnings = [
     category: 'Languages', 
     title: 'CLIL Methodology', 
     summary: 'Content and Language Integrated Learning.',
-    details: 'An educational approach where a foreign language is used for the learning and teaching of both content and language. It provides a naturalistic environment for language acquisition while teaching subjects like History or Science.',
+    content: clilMethodology,
     icon: <Languages className="w-5 h-5" /> 
   },
   { 
@@ -49,7 +58,15 @@ const learnings = [
     category: 'Methods', 
     title: 'Cooperative Learning', 
     summary: 'Small group techniques for social academic skills.',
-    details: 'A teaching strategy in which small teams of students, each with students of different levels of ability, use a variety of learning activities to improve their understanding of a subject. It emphasizes individual accountability and positive interdependence.',
+    content: cooperativeLearning,
+    icon: <PenTool className="w-5 h-5" /> 
+  },
+  { 
+    id: 7, 
+    category: 'Methods', 
+    title: 'Monipuoliset (verkko-)oppimistehtävät', 
+    summary: 'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
+    content: diverseLearningTasks,
     icon: <PenTool className="w-5 h-5" /> 
   },
 ];
@@ -130,20 +147,21 @@ export function LearningGrid() {
       <Modal
         isOpen={!!selectedLearning}
         onClose={() => setSelectedLearning(null)}
-        title={selectedLearning?.title || ''}
       >
         <div className="space-y-4">
           <div className="inline-block px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-[10px] font-bold uppercase tracking-wider mb-2 border border-blue-500/20">
             {selectedLearning?.category}
           </div>
-          <p className="text-slate-300 leading-relaxed text-lg">
-            {selectedLearning?.details}
-          </p>
-          <div className="pt-6 border-t border-slate-800">
-            <h4 className="text-white font-bold mb-3">Reflective Question:</h4>
-            <p className="text-slate-400 italic">
-              "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?"
-            </p>
+          <div className="text-slate-300 leading-relaxed text-lg">
+            <ReactMarkdown
+              components={{
+                hr: () => <hr className="border-t border-slate-800 my-6" />,
+                h4: ({ children }) => <h4 className="text-white font-bold mb-3">{children}</h4>,
+                blockquote: ({ children }) => <blockquote className="text-slate-400 italic border-l-2 border-slate-700 pl-4">{children}</blockquote>
+              }}
+            >
+              {selectedLearning?.content || ''}
+            </ReactMarkdown>
           </div>
         </div>
       </Modal>

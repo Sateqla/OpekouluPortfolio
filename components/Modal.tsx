@@ -5,11 +5,10 @@ import { X } from 'lucide-react';
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
-  title: string;
   children: React.ReactNode;
 }
 
-export function Modal({ isOpen, onClose, title, children }: ModalProps) {
+export function Modal({ isOpen, onClose, children }: ModalProps) {
   // Prevent scrolling when modal is open
   useEffect(() => {
     if (isOpen) {
@@ -45,8 +44,7 @@ export function Modal({ isOpen, onClose, title, children }: ModalProps) {
               className="bg-slate-900 border border-slate-800 w-full max-w-2xl max-h-[90vh] rounded-3xl overflow-hidden shadow-2xl pointer-events-auto flex flex-col"
             >
               {/* Header */}
-              <div className="p-6 border-b border-slate-800 flex justify-between items-center bg-slate-900/50">
-                <h3 className="text-xl font-bold text-white">{title}</h3>
+              <div className="p-6 border-b border-slate-800 flex justify-end items-center bg-slate-950/50">
                 <button
                   onClick={onClose}
                   className="p-2 hover:bg-slate-800 rounded-xl text-slate-400 hover:text-white transition-colors"
