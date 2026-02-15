@@ -12,31 +12,40 @@ const themes = [
       'Believing that every student deserves a voice. I specialize in differentiated instruction that meets the diverse needs of all learners.',
     longContent: (
       <div className="space-y-4 text-slate-300">
-        <h1>Inclusive Pedagogy</h1>
+        <h1>Oppimisen ohjaaminen</h1>
         <p>
-          My approach to inclusive pedagogy is rooted in the Universal Design
-          for Learning (UDL) framework. I believe that education should be
-          accessible to all, regardless of their background or learning style.
+          Tiivistys siitä, mikä opintojen perusteella on minun käsitykseni
+          ammatillisesta oppimisen ohjaamisesta.
         </p>
-        <h4 className="text-white font-bold text-lg mt-6">Key Strategies:</h4>
+        <h4 className="text-white font-bold text-lg mt-6">
+          Kohtaamisosaaminen
+        </h4>
+        <p>
+          Tähän tekstiä kohtaamisosaamisesta ja jonkinlainen synteesi opitusta
+        </p>
+        <h4 className="text-white font-bold text-lg mt-6">
+          Oppimisprosessien ohjausosaaminen
+        </h4>
         <ul className="list-disc pl-5 space-y-2">
           <li>
-            <strong>Differentiated Instruction:</strong> Tailoring content,
-            process, and products to student readiness and interests.
+            <strong>Tähän asiaa</strong> asiaa listaelementti ykköseen.
           </li>
           <li>
-            <strong>Scaffolding:</strong> Providing temporary supports to help
-            students reach higher levels of understanding.
+            <strong>Toinen asia:</strong> toinen listaelementti.
           </li>
           <li>
-            <strong>Culturally Responsive Teaching:</strong> Connecting
-            classroom content to students' cultural backgrounds and lived
-            experiences.
+            <strong>Kolmas boldattu</strong> Tähän myös tekstiä.
           </li>
         </ul>
+        <h4 className="text-white font-bold text-lg mt-6">
+          Ammattipedagoginen osaaminen
+        </h4>
+        <p>
+          Tähän tekstiä ammattipedagogiaan liittyvästä osaamisesta ja
+          jonkinlainen synteesi opitusta
+        </p>
         <p className="mt-4 italic">
-          "Inclusion is not just about physical presence; it's about meaningful
-          participation and belonging."
+          "Tähän ehkä joku iskulause joka tiivistää nämä hommat."
         </p>
       </div>
     ),
@@ -53,33 +62,53 @@ const themes = [
       'Integrating technology not as a distraction, but as a bridge. I leverage digital tools to enhance collaboration and critical thinking.',
     longContent: (
       <div className="space-y-4 text-slate-300">
-        <h1>Digital Literacies</h1>
+        <h1>Ammatillisen opettajuuden kehittäminen</h1>
         <p>
-          Modern education requires more than just basic computer skills; it
-          requires digital fluency. I aim to prepare students for a world where
-          technology is ubiquitous.
+          Tähän omaa näkemystä siitä miten ammatillisen opettajan osaaminen
+          kehittyi opintojen aikana ja mitä siitä jäi työkalupakkiin.
         </p>
         <h4 className="text-white font-bold text-lg mt-6">
-          Implementation Focus:
+          Toimijuusosaaminen
         </h4>
         <ul className="list-disc pl-5 space-y-2">
           <li>
-            <strong>Collaborative Platforms:</strong> Using tools like Google
-            Workspace and Miro to foster teamwork.
+            <strong>Kyky ohjata omaa tekemistä on tärkeää.</strong>{' '}
+            Itseohjautuvuus on tärkeää. On oltava aktiivinen, kyettävä
+            päätöksentekoon ja ottamaan vastuuta vähintään omista opinnoistaan
+            ja tekemisistään. <strong>Miten tuen tätä opiskelijoilla?</strong>
           </li>
           <li>
-            <strong>Digital Citizenship:</strong> Teaching students how to
-            navigate the internet safely and ethically.
+            <strong>Kehittämisote:</strong> aina on hyvä pyrkiä kehittämään
+            tekemistä ja nostaa ongelmat esiin. Kyseenalaista perustellen,
+            ehdota uusia ratkaisuja.
           </li>
           <li>
-            <strong>AI Literacy:</strong> Introducing students to the
-            responsible use of generative AI in their learning process.
+            <strong>Sosiaalisuus ja yhteisöllisyys:</strong> Osallistu ja
+            vaikuta omassa (opiskelija)yhteisössäsi. Sama koskee opettajien
+            yhteisöä, kehitä opintojaksoja yhteisesti, alista ne kritiikille ja
+            opi muilta.
+          </li>
+          <li>
+            <strong>Rakenna ammatillinen identiteetti:</strong> Tunne
+            osaamisesi, tiedosta missä olet hyvä ja pyri kehittymään. Uskalla
+            ottaa kantaa, vakuuta ensin itsesi.
           </li>
         </ul>
-        <p className="mt-4">
-          By moving beyond 'screens as books,' we can unlock new ways for
-          students to create, communicate, and solve problems.
-        </p>
+        <h4 className="text-white font-bold text-lg mt-6">
+          Reflektio-osaaminen
+        </h4>
+        <p>Miten ymmärrän reflektion merkityksen opetuksessa?</p>
+        <ul className="list-disc pl-5 space-y-2">
+          <li>
+            <strong>Oma reflektio:</strong> Miten reflektoin omaa tekemistä,
+            osaamista ja opintojaksoja
+          </li>
+          <li>
+            <strong>Reflektion merkitys opiskelijoille:</strong> Miten opetan
+            opiskelijoita reflektoimaan tekemistään ja oppimistaan.
+          </li>
+        </ul>
+        <p className="mt-4">Tähän taas joku tiivsitys tästä aiheesta.</p>
       </div>
     ),
     icon: <Monitor className="w-6 h-6" />,
@@ -95,33 +124,50 @@ const themes = [
       'Teaching the whole child. My approach prioritizes socio-emotional learning, fostering a safe environment for empathy and resilience.',
     longContent: (
       <div className="space-y-4 text-slate-300">
-        <h1>Emotional Intelligence</h1>
+        <h1>Tulevaisuuden tekeminen</h1>
         <p>
-          A student cannot learn effectively if they do not feel safe, seen, and
-          supported. Emotional intelligence is a prerequisite for academic
-          success.
+          Erityisesti ICT-ala muuttuu kiihtyvällä nopeudella. Tulevaisuuden
+          ennakointi on oleellinen osa ammatillisen opettajan tehtäviä. Meidän
+          on pysyttävä ajan tasalla ja pyrittävä suunnittelemaan opinnot sen
+          mukaan, millaista osaamista tarvitaan{' '}
+          <strong>silloin kun opiskelijat valmistuvat</strong>, ei sen mukaan
+          mitä juuri nyt tarvitaan.
         </p>
         <h4 className="text-white font-bold text-lg mt-6">
-          Classroom Pillars:
+          Tulevaisuusosaaminen
         </h4>
         <ul className="list-disc pl-5 space-y-2">
           <li>
-            <strong>Self-Regulation:</strong> Tools and techniques (like
-            mindfulness) to help students manage their emotions.
+            <strong>Koulutusjärjestelmä ja sen asettamat puitteet:</strong>{' '}
+            Yhteiskunnan asettamat reunaehdot koulutusjärjestelmän ja
+            rahoituksen kautta.
           </li>
           <li>
-            <strong>Empathy Building:</strong> Literature and activities
-            designed to help students understand perspectives different from
-            their own.
+            <strong>Alan kehityksen ennakointi</strong> Alan muutoksen ja
+            työelämän seuranta, työelämäprojektit.
           </li>
           <li>
-            <strong>Conflict Resolution:</strong> Restorative justice practices
-            that focus on repairing harm rather than just punishment.
+            <strong>Tulevaisuuden ennakoinnin menetelmäosaaminen:</strong>{' '}
+            Opetussuunnitelmia kehittäessä on järkevä käyttää
+            tulevaisuudentutkimuksen menetelmiä, kun haetaan aiheita ja
+            opetettavia asioita jotta osaaminen on valmistuessa relevanttia.
+            Mikä tulee säilymään, mikä on jo opintojakson jälkeen vanhaa tietoa?
           </li>
         </ul>
-        <p className="mt-4">
-          I believe that teaching empathy is just as important as teaching
-          literacy.
+        <h4 className="text-white font-bold text-lg mt-6">
+          Kehittämisosaaminen
+        </h4>
+        <p>
+          Kehittämisosaamista tarvitaan sekä koulutuksen yleisen tason
+          kehittämisessä annetuissa puitteissa, mutta myös projektityössä, joka
+          on usein osa ammattikorkeakouluopettajan työtä projekteissa.
+        </p>
+        <p>
+          Toisaalta ammatillisen opettajan työhön kuuluu hyvin vahvasti
+          koulutuksen kehttäminen osana omaa opetusta ja tutkinto-ohjelmaa.
+        </p>
+        <p className="mt-4, italic">
+          Ennustaminen on vaikeaa. Etenkin tulevaisuuden.
         </p>
       </div>
     ),
