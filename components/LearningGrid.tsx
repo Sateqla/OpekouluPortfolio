@@ -23,7 +23,8 @@ const learnings = [
     id: 1,
     category: 'Oppimisen ohjaaminen',
     title: 'Oma opettajuus ja identiteetti',
-    summary: 'Using directed inquiry to foster critical thinking.',
+    summary:
+      'Opettajuuteni rakentuu kolmelle vahvalle perustalle: henkilökohtaiselle ohjaukselle, käytännönläheisyydelle ja opiskelijan kehittymisen tukemiselle.',
     content: omaOpettajuus,
     icon: <PenTool className="w-5 h-5" />,
   },
@@ -183,6 +184,14 @@ export function LearningGrid() {
                   <blockquote className="text-slate-400 italic border-l-2 border-slate-700 pl-4">
                     {children}
                   </blockquote>
+                ),
+                img: ({ src, alt }) => (
+                  <img
+                    src={src}
+                    alt={alt || ''}
+                    className="w-full rounded-xl my-6 border border-slate-800"
+                    loading="lazy"
+                  />
                 ),
               }}
             >
