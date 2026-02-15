@@ -61,7 +61,7 @@ export function Footer() {
                   href="#learnings"
                   className="hover:text-blue-400 transition-colors"
                 >
-                  Opintopäiväkirja
+                  Opintopäiväkirjasta
                 </a>
               </li>
               <li>
