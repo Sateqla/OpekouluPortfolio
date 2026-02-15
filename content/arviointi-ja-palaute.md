@@ -1,15 +1,17 @@
-# Differentiated Instruction
+# Arviointi ja palaute
 
-The practice of modifying teaching methods to meet the diverse needs of all students in a classroom.
+Arvioinnin rooli nähdään laajemmin kuin vain arvosanan antamisena.
 
-### Areas of Differentiation
-This can involve varying:
-- **Content**: What the student needs to learn or how the student will get access to the information.
-- **Process**: Activities in which the student engages in order to make sense of or master the content.
-- **Products**: Culminating projects that ask the student to rehearse, apply, and extend what he or she has learned in a unit.
-- **Learning Environment**: The way the classroom works and feels.
+**Formatiivinen arviointi ja palaute:** Jatkuva, oppimista tukeva palaute on tärkeämpää kuin pelkkä loppuarviointi
 
+**Autenttinen arviointi:** Arvioinnin tulisi kohdistua todellisiin taitoihin ja prosesseihin, ei vain irralliseen nippelitietoon
+
+**Opiskelijapalaute:** Opiskelijoilta kerättävä palaute on osa laadunvarmistusta ja opetuksen kehittämistä
+
+**Vertaisarviointi:** Vertaisarviointi auttaa opiskelijoita reflektoimaan myös omaa oppistaan JA TÄHÄN TARVITAAN LISÄJUTTUJA MUISTIINPANOISTA.
 
 ---
-#### Reflective Question:
+
+## Reflektiivinen kysymys
+
 > "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?"

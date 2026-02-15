@@ -1,14 +1,7 @@
-# Inquiry-Based Learning
+# Erityinen tuki, saavutettavuus ja yhdenvertaisuus
 
-A form of active learning that starts by posing questions, problems or scenarios—rather than simply presenting established facts.
+Opetuksen on oltava inklusiivista ja saavutettavaa kaikille oppijoille.
 
-### Core Principles
-- **Student-Centerd**: Focus is on the student's questions and ideas.
-- **Active Engagement**: Students act as researchers to find solutions.
-- **Skill Development**: Fosters deep engagement and a "learn-how-to-learn" mindset.
-- **Scaffolding**: Teachers provide support and guidance as needed.
-
-
----
-#### Reflective Question:
-> "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?"
+- Erityinen tuki ja HOPS: Lähteissä käsitellään tuen tarpeita (esim. lukivaikeus, ADHD) ja yksilöllisiä opintojärjestelyjä (henkilökohtainen opintosuunnitelma),,. Erityisesti nivelvaiheet (esim. siirtymä ammattikoulusta ammattikorkeakouluun) vaativat ohjausta.
+- Saavutettavuus: Opetusmateriaalien ja -ympäristöjen tulee olla saavutettavia. Esimerkkeinä mainitaan selkeä kieli, videotekstitykset ja vaihtoehtoiset suoritustavat.
+- Yhdenvertaisuus ja sensitiivisyys: Opettajan tulee tiedostaa omat oletuksensa ja kohdata opiskelijat yhdenvertaisesti, huomioiden kulttuuritaustat ja sukupuolen moninaisuuden.

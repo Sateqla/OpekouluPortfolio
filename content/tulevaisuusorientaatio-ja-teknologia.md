@@ -1,23 +1,9 @@
-# Monipuoliset (verkko-)oppimistehtävät
+# Tulevaisuusorientaatio ja teknologia
 
-Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.
+Opetuksen on vastattava tulevaisuuden ja muuttuvan työelämän tarpeisiin.
 
-## Toteutus
+- Tulevaisuustaidot: Opetussuunnitelmien tulee joustaa ja ennakoida tulevia osaamistarpeita, kuten kriittistä ajattelua ja tiedonhallintaa.
 
-Olen kerännyt aineistoksi muutamia tapoja toteuttaa erilaisia verkkotetäviä sekä yksilötehtävinä että ryhmätöinä. Näitä tehtävätyyppejä varioin kursseilla, jotta tehtäviin saadaan vaihtelua.
+- Teknologian rooli: Tekoäly (AI) ja digitalisaatio muuttavat opetusta. Tekoäly nähdään sekä uhkana (perusosaamisen rapautuminen) että mahdollisuutena (tutorointi, nopea palaute).
 
-Testataan tähän vielä muutoksia ja katsotaan miten se toimii.
-
-## Perusrunko
-
-Tehtävien runko pysyy kuitenkin aina samana:
-
-1. **Tavoite**: Mitä opitaan?
-2. **Tarkoitus**: Miksi tämä on tärkeää?
-3. **Toiminta**: Mitä tehdään ja miten?
-
----
-
-### Reflective Question
-
-> "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?"
+- Jatkuva oppiminen: Työelämän nopea muutos (erityisesti ICT-alalla) vaatii jatkuvaa oppimista ja uuden omaksumista,.

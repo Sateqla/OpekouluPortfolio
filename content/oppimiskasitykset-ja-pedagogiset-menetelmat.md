@@ -1,18 +1,8 @@
-# Bloom's Taxonomy
+# Oppimiskäsitykset ja pedagogiset menetelmät
 
-A hierarchical model used to classify educational learning objectives into levels of complexity and specificity.
+Keskeisinä pedagogisina lähestymistapoina korostuvat opiskelijakeskeisyys ja aktiivinen oppiminen.
 
-## The Hierarchy (Revised)
-
-1. **Remembering**: Retrieving, recognizing, and recalling relevant knowledge from long-term memory.
-2. **Understanding**: Constructing meaning from oral, written, and graphic messages.
-3. **Applying**: Carrying out or using a procedure through executing, or implementing.
-4. **Analyzing**: Breaking material into constituent parts, determining how the parts relate to one another and to an overall structure.
-5. **Evaluating**: Making judgments based on criteria and standards.
-6. **Creating**: Putting elements together to form a coherent or functional whole; reorganizing elements into a new pattern or structure.
-
----
-
-### Reflective Question
-
-> "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?"
+- **Käänteinen oppiminen (Flipped Learning):** Tämä teema toistuu vahvasti. Lähteissä erotetaan käänteinen opetus (metodi) ja käänteinen oppiminen (ideologia). Keskeistä on vastuun siirtäminen opiskelijalle, ennakkotehtävät ja luokka-ajan käyttäminen vuorovaikutukseen ja syventämiseen luennoinnin sijaan.
+- **Valmentava opettajuus:** Opettajan rooli nähdään yhä enemmän valmentajana ja mentorina. Tämä sisältää dialogisuuden, vahvuuspedagogiikan ja opiskelijan ammatillisen kasvun tukemisen. Ohjaus ja sparraus ovat keskeisiä menetelmiä.
+- **Autenttinen oppiminen ja työelämälähtöisyys:** Oppimistehtävien tulisi vastata todellisia työelämän ongelmia. Tämä motivoi opiskelijoita ja kytkee teorian käytäntöön. Esimerkkinä mainitaan yhteisölliset projektit ja "oikeiden" ongelmien ratkaiseminen.
+- **Sosiokonstruktivismi:** Oppiminen nähdään sosiaalisena prosessina, jossa tietoa rakennetaan vuorovaikutuksessa muiden kanssa. Tämä perustelee ryhmätyöskentelyn ja keskustelun merkitystä.

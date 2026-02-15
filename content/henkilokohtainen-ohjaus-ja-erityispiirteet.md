@@ -1,14 +1,8 @@
-# Cooperative Learning
+# Aikuisopiskelijan erityispiirteet
 
-A teaching strategy in which small teams of students, each with students of different levels of ability, use a variety of learning activities to improve their understanding of a subject.
+Aikuiskoulutuksen näkökulma on lähteissä vahvasti esillä, ja aikuinen nähdään erilaisena oppijana kuin nuori.
 
-### Key Elements
-- **Positive Interdependence**: The success of one depends on the success of all.
-- **Individual Accountability**: Each student is responsible for their own learning.
-- **Face-to-Face Interaction**: Promoting each other's success.
-- **Social Skills**: Interpersonal and small group skills.
-
-
----
-#### Reflective Question:
-> "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?"
+- Kokemuksen merkitys: Aikuisella on aiempaa elämän- ja työkokemusta, joka tulisi tunnistaa ja jota tulisi hyödyntää opetuksessa.
+- Osaamisen tunnistaminen ja tunnustaminen (AHOT): Lähteissä korostetaan aiemmin hankitun osaamisen (formaali, non-formaali ja informaali) hyväksilukemista, jotta vältetään turhaa päällekkäistä koulutusta.
+- Elämäntilanteen vaikutus: Aikuisopiskelussa on huomioitava työn, perheen ja opintojen yhteensovittaminen, mikä vaikuttaa ajankäyttöön ja jaksamiseen.
+- Itseohjautuvuus ja motivaatio: Aikuiset ovat usein itseohjautuvia, mutta tarvitsevat silti ohjausta. Motivaatio on usein sidoksissa oppimisen relevanssiin ja hyödyllisyyteen työelämässä.

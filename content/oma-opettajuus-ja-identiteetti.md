@@ -1,18 +1,17 @@
-# The Socratic Method
+# Oma opettajuus ja identiteetti
 
-Based on the teaching style of the Greek philosopher Socrates, this method uses a series of questions to lead students to discover knowledge for themselves. 
+Opettajuuteni rakentuu kolmelle vahvalle perustalle: **henkilökohtaiselle ohjaukselle**, **käytännönläheisyydelle** ja **opiskelijan kehittymisen tukemiselle**. Pyrin näkemään jokaisen opiskelijan yksilönä ja pyrin löytämään hänelle sopivimman tavan oppia ja kehittyä aina kun se on mahdollista. Valmentava otteeni näkyy siinä, että en tarjoa valmiita vastauksia, vaan ohjaan opiskelijoita itse ratkaisemaan ongelmia ja löytämään omat polkunsa.
 
-It emphasizes:
-- **Critical thinking**: evaluating arguments and evidence.
-- **Logical reasoning**: constructing valid arguments.
-- **Active participation**: the learner is not passive.
+**Opetus perustuu oikeisiin työelämän käytäntöihin ja ongelmiin**, ja opiskelijat harjoittelevat samoja työtapoja, joita he kohtaavat tulevissa työtehtävissään. Pyrin rakentamaan ilmapiirin, jossa jokainen uskaltaa kysyä, pohtia ja osallistua ja erityisesti epäonnistua.
 
-### Key Components
-1. **Irony**: The teacher pretends ignorance to encourage the student to explain.
-2. **Maieutics**: "Midwifery" of thought help bring the student's ideas to birth.
-3. **Dialectic**: Cooperative argument/dialogue to find truth.
+**Tutoropettajana näen vastuullani opiskelijan ammatillisen identiteetin rakentamisen.** En vain ohjaa opintoja, vaan autan opiskelijaa löytämään omat vahvuutensa ja kiinnostuksensa alalla, jotta hän voi rakentaa itselleen merkityksellisen uran. Tämä henkilökohtainen sitoutuminen on minulle opettajuuden sydän.
 
+**Tiedostan omat kehittämisen kohteet:** suurten ryhmien ohjauksessa minulla on vielä opittavaa, ja palautteen antaminen vaatii minulta systemaattisempaa lähestymistapaa. Kuitenkin jatkuva oppiminen ja kehittyminen ovat minulle luontaisia – ne ovat myös se, mitä opetan opiskelijoilleni. Opettajana olen sitoutunut siihen, että opetukseni kehittyy yhdessä opiskelijoideni kanssa, ja että pysyn ajan tasalla nopeasti muuttuvalla ICT-alalla. Tämä on opettajuuteni lupaus: olla läsnä, ohjata, tukea ja kasvaa yhdessä jokaisen opiskelijan kanssa.
 
----
-#### Reflective Question:
-> "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?"
+## Teoreettiset lähtökohdat ja oma käyttöteoria
+
+Kirjoitin aiemmin opetusharjoittelun suunnitelmassani käyttöteoriasta, ja koin itselleni parhaiksi teoreettisiksi lähtökohdiksi konstruktivistisen oppimiskäsityksen sekä erityisesti valmentavan opettajuuden. **Konstruktivistisen oppimiskäsityksen** mukaan uusi tieto omaksutaan jo opittujen asioiden päälle ja asioita käydään jatkuvasti läpi perustuen aiemmin opittuun. Tämä näkyy erityisesti siinä että pyrin aina sitomaan käsiteltävän asian suoraan joko edeltävien opintojaksojen sisältöihin tai opintojen alkupuolella opiskelijoiden omaan kokemuspiiriin. Tämä edellyttää sitä, että käyn hieman keskusteluja opiskelijoiden kanssa heidän tietoteknisistä taidoistaan sekä olemassaolevasta tietämyksestään. Näin pystyn heti alussa konkretisoimaan haastavampiakin konsepteja, toki mahdollisuuksien mukaan.
+
+**Positiivinen pedagogia** ja onnistumisiin tarttuminen on minusta olennainen asia ja pyrin sillä kehittämään opiskelijan sisäistä motivaatiota vaikeiden asioiden opiskeluun. Tätä toki pyrin tukemaan myös työelämälähtöisillä käytännön esimerkeillä. Motivaation löytäminen minkä tahansa keinon avulla on ICT-alalla tärkeää, sillä oppiminen on työssäkin jatkuvaa eikä millään lailla voi loppua opintojen päättymiseen. Tämä auttaa myös ottamaan vastuuta omista opinnoista.
+
+**Valmentava opettajuus** näkyy paitsi tutoropettajan tehtävissä mutta myös luennoilla henkilökohtaisessa ohjauksessa. En tarjoa valmiita ratkaisua, vaan ohjaan opiskelijan itse selvittämään ongelmaa. Usein ratkaisemme ongelmaa myös yhdessä jotta käytännöt selviävät, ja sen jälkeen ohjaan opiskelijoita vastaavassa tilanteessa tarpeen mukaan henkilökohtaisesti, kuitenkin siten että he saavat onnistua itse. Sparraus ja dialogi ovat ensisijaisia työtapojani henkilökohtaisissa opetustilanteissa.
