@@ -1,6 +1,12 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { BookOpen, PenTool, Globe, FlaskConical, Languages } from 'lucide-react';
+import {
+  BookOpen,
+  PenTool,
+  Globe,
+  FlaskConical,
+  Languages,
+} from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { Modal } from './Modal';
 
@@ -13,91 +19,104 @@ import cooperativeLearning from '../content/cooperative-learning.md?raw';
 import diverseLearningTasks from '../content/diverse-learning-tasks.md?raw';
 
 const learnings = [
-  { 
-    id: 1, 
-    category: 'Methods', 
-    title: 'The Socratic Method', 
+  {
+    id: 1,
+    category: 'Methods',
+    title: 'The Socratic Method',
     summary: 'Using directed inquiry to foster critical thinking.',
     content: socraticMethod,
-    icon: <PenTool className="w-5 h-5" /> 
+    icon: <PenTool className="w-5 h-5" />,
   },
-  { 
-    id: 2, 
-    category: 'Psychology', 
-    title: 'Bloom\'s Taxonomy', 
+  {
+    id: 2,
+    category: 'Psychology',
+    title: "Bloom's Taxonomy",
     summary: 'Framework for categorizing educational goals.',
     content: bloomsTaxonomy,
-    icon: <BookOpen className="w-5 h-5" /> 
+    icon: <BookOpen className="w-5 h-5" />,
   },
-  { 
-    id: 3, 
-    category: 'Diversity', 
-    title: 'Differentiated Instruction', 
+  {
+    id: 3,
+    category: 'Diversity',
+    title: 'Differentiated Instruction',
     summary: 'Tailoring lessons to individual learning styles.',
     content: differentiatedInstruction,
-    icon: <Globe className="w-5 h-5" /> 
+    icon: <Globe className="w-5 h-5" />,
   },
-  { 
-    id: 4, 
-    category: 'Science', 
-    title: 'Inquiry-Based Learning', 
+  {
+    id: 4,
+    category: 'Science',
+    title: 'Inquiry-Based Learning',
     summary: 'Students learn by posing questions and solving problems.',
     content: inquiryBasedLearning,
-    icon: <FlaskConical className="w-5 h-5" /> 
+    icon: <FlaskConical className="w-5 h-5" />,
   },
-  { 
-    id: 5, 
-    category: 'Languages', 
-    title: 'CLIL Methodology', 
+  {
+    id: 5,
+    category: 'Languages',
+    title: 'CLIL Methodology',
     summary: 'Content and Language Integrated Learning.',
     content: clilMethodology,
-    icon: <Languages className="w-5 h-5" /> 
+    icon: <Languages className="w-5 h-5" />,
   },
-  { 
-    id: 6, 
-    category: 'Methods', 
-    title: 'Cooperative Learning', 
+  {
+    id: 6,
+    category: 'Methods',
+    title: 'Cooperative Learning',
     summary: 'Small group techniques for social academic skills.',
     content: cooperativeLearning,
-    icon: <PenTool className="w-5 h-5" /> 
+    icon: <PenTool className="w-5 h-5" />,
   },
-  { 
-    id: 7, 
-    category: 'Methods', 
-    title: 'Monipuoliset (verkko-)oppimistehtävät', 
-    summary: 'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
+  {
+    id: 7,
+    category: 'Methods',
+    title: 'Monipuoliset (verkko-)oppimistehtävät',
+    summary:
+      'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
     content: diverseLearningTasks,
-    icon: <PenTool className="w-5 h-5" /> 
+    icon: <PenTool className="w-5 h-5" />,
   },
 ];
 
 export function LearningGrid() {
   const [filter, setFilter] = useState('All');
-  const [selectedLearning, setSelectedLearning] = useState<typeof learnings[0] | null>(null);
-  
-  const categories = ['All', ...Array.from(new Set(learnings.map(l => l.category)))];
+  const [selectedLearning, setSelectedLearning] = useState<
+    (typeof learnings)[0] | null
+  >(null);
 
-  const filteredItems = filter === 'All' 
-    ? learnings 
-    : learnings.filter(l => l.category === filter);
+  const categories = [
+    'All',
+    ...Array.from(new Set(learnings.map((l) => l.category))),
+  ];
+
+  const filteredItems =
+    filter === 'All'
+      ? learnings
+      : learnings.filter((l) => l.category === filter);
 
   return (
-    <section id="learnings" className="py-24 bg-slate-900/30 px-4">
+    <section id="learnings" className="py-12 bg-slate-900/30 px-4 scroll-mt-12">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
           <div>
-            <h2 className="text-3xl font-bold text-white mb-4">Oppimispäiväkirjasta</h2>
-            <p className="text-slate-400">Teorioita, menetelmiä ja konsepteja joita opiskelin ja sovellan opetustyössäni. Opintojen kulkua, harjoittelua ja niistä syntyneitä oivalluksia.</p>
+            <h2 className="text-3xl font-bold text-white mb-4">
+              Oppimispäiväkirjasta
+            </h2>
+            <p className="text-slate-400">
+              Teorioita, menetelmiä ja konsepteja joita opiskelin ja sovellan
+              opetustyössäni. Opintojen kulkua, harjoittelua ja niistä
+              syntyneitä oivalluksia.
+            </p>
           </div>
-          
+
           <div className="flex flex-wrap gap-2">
-            {categories.map(cat => (
+            {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                  filter === cat 
-                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-900/20' 
+                  filter === cat
+                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-900/20'
                     : 'bg-slate-800 text-slate-400 hover:bg-slate-700 border border-slate-700'
                 }`}
               >
@@ -107,7 +126,7 @@ export function LearningGrid() {
           </div>
         </div>
 
-        <motion.div 
+        <motion.div
           layout
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >
@@ -156,8 +175,14 @@ export function LearningGrid() {
             <ReactMarkdown
               components={{
                 hr: () => <hr className="border-t border-slate-800 my-6" />,
-                h4: ({ children }) => <h4 className="text-white font-bold mb-3">{children}</h4>,
-                blockquote: ({ children }) => <blockquote className="text-slate-400 italic border-l-2 border-slate-700 pl-4">{children}</blockquote>
+                h4: ({ children }) => (
+                  <h4 className="text-white font-bold mb-3">{children}</h4>
+                ),
+                blockquote: ({ children }) => (
+                  <blockquote className="text-slate-400 italic border-l-2 border-slate-700 pl-4">
+                    {children}
+                  </blockquote>
+                ),
               }}
             >
               {selectedLearning?.content || ''}

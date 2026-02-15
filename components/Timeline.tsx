@@ -1,4 +1,3 @@
-
 import { motion } from 'motion/react';
 import { BookOpen, GraduationCap, Building } from 'lucide-react';
 
@@ -45,7 +44,8 @@ const timelineData = [
   },
   {
     year: '2026',
-    title: 'Opettajana ja kouluttajana kehittyminen ja ammattitaidon ylläpitäminen',
+    title:
+      'Opettajana ja kouluttajana kehittyminen ja ammattitaidon ylläpitäminen',
     description:
       'Jatkan unelma-ammatissani. Pedagogisesti jatkan uusien keinojen etsimistä vaikeiden asioiden opettamiseksi. Erityisesti tekoäly tuo sekä opettajan työhöni että ammattialalle täysin uudenlaisia työmalleja, jotka erityisesti pedagogisesta näkökulmasta kiinnostavat tällä hetkellä. Tavoitteeni on ylläpitää yritysyhteyksiä ja tehdä projekteja myös työelämään ammattitaidon ja kontaktien ylläpitämiseksi.',
     icon: <BookOpen className="w-5 h-5" />,
@@ -55,14 +55,15 @@ const timelineData = [
 
 export function Timeline() {
   return (
-    <section id="timeline" className="py-24 bg-slate-900/50">
+    <section id="timeline" className="py-12 bg-slate-900/50 scroll-mt-12">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-white mb-4">
             Opettajuuden polku
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto">
-            Alla matkani opettajana alkujuurista ammattialan työkokemuksen kautta ammatilliseksi opettajaksi.
+            Alla matkani opettajana alkujuurista ammattialan työkokemuksen
+            kautta ammatilliseksi opettajaksi.
           </p>
         </div>
 

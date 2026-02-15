@@ -1,10 +1,12 @@
-
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Hero() {
   return (
-    <section id="about" className="pt-32 pb-20 px-4 overflow-hidden bg-slate-950">
+    <section
+      id="about"
+      className="pt-32 pb-20 px-4 overflow-hidden bg-slate-950 scroll-mt-12"
+    >
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -16,18 +18,34 @@ export function Hero() {
               Ammatillisen opettajankoulutuksen portfolio
             </span>
             <h1 className="text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6">
-              Henkilökohtaista kehittymistä <span className="text-blue-500">empatian ja teknologiaosaamisen</span> kautta.
+              Henkilökohtaista kehittymistä{' '}
+              <span className="text-blue-500">
+                empatian ja teknologiaosaamisen
+              </span>{' '}
+              kautta.
             </h1>
             <p className="text-xl text-slate-400 leading-relaxed mb-8 max-w-xl">
-              Olen ohjelmistokehityksen ja palvelunhallinnan työkokemuksen omaava ammatillinen opettaja, ja innostunut luomaan inklusiivisia, viimeisimpään teknologiaan ja työelämäkäytäntöihin  sekä -tarpeisiin perustuvia opintoja joissa kaikki opiskelijat tuntevat itsensä tervetulleiksi ja pystyvät kehittymään parhaimpaansa.
+              Olen ohjelmistokehityksen ja palvelunhallinnan työkokemuksen
+              omaava ammatillinen opettaja, ja innostunut luomaan inklusiivisia,
+              viimeisimpään teknologiaan ja työelämäkäytäntöihin sekä
+              -tarpeisiin perustuvia opintoja joissa kaikki opiskelijat tuntevat
+              itsensä tervetulleiksi ja pystyvät kehittymään parhaimpaansa.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-500 transition-all shadow-lg shadow-blue-900/20">
+              <a
+                href="#timeline"
+                className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-500 transition-all shadow-lg shadow-blue-900/20 inline-block"
+              >
                 Matka opettajana
-              </button>
-              <button className="bg-slate-900 border-2 border-slate-800 text-slate-300 px-8 py-4 rounded-xl font-semibold hover:border-slate-700 hover:bg-slate-800 transition-all">
-                Lataa ansioluettelo
-              </button>
+              </a>
+              <a
+                href="https://fi.linkedin.com/in/heikkisateila"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-900 border-2 border-slate-800 text-slate-300 px-8 py-4 rounded-xl font-semibold hover:border-slate-700 hover:bg-slate-800 transition-all inline-block"
+              >
+                Ansioluettelo LinkedInissä
+              </a>
             </div>
           </motion.div>
           <motion.div
@@ -49,8 +67,12 @@ export function Hero() {
                   <span className="text-blue-400 font-bold">15+</span>
                 </div>
                 <div>
-                  <p className="font-bold text-white text-sm uppercase tracking-wider">vuoden kokemus</p>
-                  <p className="text-slate-500 text-xs">Sovellusten palvelutuotannosta</p>
+                  <p className="font-bold text-white text-sm uppercase tracking-wider">
+                    vuoden kokemus
+                  </p>
+                  <p className="text-slate-500 text-xs">
+                    Sovellusten palvelutuotannosta
+                  </p>
                 </div>
               </div>
             </div>

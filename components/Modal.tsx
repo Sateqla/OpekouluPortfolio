@@ -33,7 +33,7 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
             onClick={onClose}
             className="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-[60] cursor-pointer"
           />
-          
+
           {/* Modal Container */}
           <div className="fixed inset-0 z-[70] flex items-center justify-center p-4 pointer-events-none">
             <motion.div
@@ -55,18 +55,16 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 
               {/* Content */}
               <div className="p-8 overflow-y-auto custom-scrollbar">
-                <div className="prose prose-invert max-w-none">
-                  {children}
-                </div>
+                <div className="prose prose-invert max-w-none">{children}</div>
               </div>
-              
+
               {/* Footer */}
               <div className="p-6 border-t border-slate-800 bg-slate-950/50 flex justify-end">
                 <button
                   onClick={onClose}
                   className="px-6 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl font-medium transition-colors"
                 >
-                  Close
+                  Sulje
                 </button>
               </div>
             </motion.div>

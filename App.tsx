@@ -1,10 +1,9 @@
-
-import { Navbar } from "./components/Navbar";
-import { Hero } from "./components/Hero";
-import { Timeline } from "./components/Timeline";
-import { TeachingThemes } from "./components/TeachingThemes";
-import { LearningGrid } from "./components/LearningGrid";
-import { Footer } from "./components/Footer";
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero';
+import { Timeline } from './components/Timeline';
+import { TeachingThemes } from './components/TeachingThemes';
+import { LearningGrid } from './components/LearningGrid';
+import { Footer } from './components/Footer';
 
 export default function App() {
   return (
@@ -12,9 +11,9 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
-        <Timeline />
         <TeachingThemes />
         <LearningGrid />
+        <Timeline />
       </main>
       <Footer />
     </div>

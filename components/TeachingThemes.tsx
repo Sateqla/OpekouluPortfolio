@@ -7,83 +7,160 @@ import { Modal } from './Modal';
 const themes = [
   {
     id: 1,
-    title: 'Inclusive Pedagogy',
-    description: 'Believing that every student deserves a voice. I specialize in differentiated instruction that meets the diverse needs of all learners.',
+    title: 'Oppimisen ohjaaminen',
+    description:
+      'Believing that every student deserves a voice. I specialize in differentiated instruction that meets the diverse needs of all learners.',
     longContent: (
       <div className="space-y-4 text-slate-300">
         <h1>Inclusive Pedagogy</h1>
-        <p>My approach to inclusive pedagogy is rooted in the Universal Design for Learning (UDL) framework. I believe that education should be accessible to all, regardless of their background or learning style.</p>
+        <p>
+          My approach to inclusive pedagogy is rooted in the Universal Design
+          for Learning (UDL) framework. I believe that education should be
+          accessible to all, regardless of their background or learning style.
+        </p>
         <h4 className="text-white font-bold text-lg mt-6">Key Strategies:</h4>
         <ul className="list-disc pl-5 space-y-2">
-          <li><strong>Differentiated Instruction:</strong> Tailoring content, process, and products to student readiness and interests.</li>
-          <li><strong>Scaffolding:</strong> Providing temporary supports to help students reach higher levels of understanding.</li>
-          <li><strong>Culturally Responsive Teaching:</strong> Connecting classroom content to students' cultural backgrounds and lived experiences.</li>
+          <li>
+            <strong>Differentiated Instruction:</strong> Tailoring content,
+            process, and products to student readiness and interests.
+          </li>
+          <li>
+            <strong>Scaffolding:</strong> Providing temporary supports to help
+            students reach higher levels of understanding.
+          </li>
+          <li>
+            <strong>Culturally Responsive Teaching:</strong> Connecting
+            classroom content to students' cultural backgrounds and lived
+            experiences.
+          </li>
         </ul>
-        <p className="mt-4 italic">"Inclusion is not just about physical presence; it's about meaningful participation and belonging."</p>
+        <p className="mt-4 italic">
+          "Inclusion is not just about physical presence; it's about meaningful
+          participation and belonging."
+        </p>
       </div>
     ),
     icon: <Users className="w-6 h-6" />,
-    image: 'https://images.unsplash.com/photo-1758270704524-596810e891b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
-    accent: 'bg-blue-600',
-    border: 'border-blue-500/50',
+    image:
+      'https://images.unsplash.com/photo-1758270704524-596810e891b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+    accent: 'bg-pink-600',
+    border: 'border-pink-500/50',
   },
   {
     id: 2,
-    title: 'Digital Literacies',
-    description: 'Integrating technology not as a distraction, but as a bridge. I leverage digital tools to enhance collaboration and critical thinking.',
+    title: 'Ammatillisen opettajuuden kehittäminen',
+    description:
+      'Integrating technology not as a distraction, but as a bridge. I leverage digital tools to enhance collaboration and critical thinking.',
     longContent: (
       <div className="space-y-4 text-slate-300">
         <h1>Digital Literacies</h1>
-        <p>Modern education requires more than just basic computer skills; it requires digital fluency. I aim to prepare students for a world where technology is ubiquitous.</p>
-        <h4 className="text-white font-bold text-lg mt-6">Implementation Focus:</h4>
+        <p>
+          Modern education requires more than just basic computer skills; it
+          requires digital fluency. I aim to prepare students for a world where
+          technology is ubiquitous.
+        </p>
+        <h4 className="text-white font-bold text-lg mt-6">
+          Implementation Focus:
+        </h4>
         <ul className="list-disc pl-5 space-y-2">
-          <li><strong>Collaborative Platforms:</strong> Using tools like Google Workspace and Miro to foster teamwork.</li>
-          <li><strong>Digital Citizenship:</strong> Teaching students how to navigate the internet safely and ethically.</li>
-          <li><strong>AI Literacy:</strong> Introducing students to the responsible use of generative AI in their learning process.</li>
+          <li>
+            <strong>Collaborative Platforms:</strong> Using tools like Google
+            Workspace and Miro to foster teamwork.
+          </li>
+          <li>
+            <strong>Digital Citizenship:</strong> Teaching students how to
+            navigate the internet safely and ethically.
+          </li>
+          <li>
+            <strong>AI Literacy:</strong> Introducing students to the
+            responsible use of generative AI in their learning process.
+          </li>
         </ul>
-        <p className="mt-4">By moving beyond 'screens as books,' we can unlock new ways for students to create, communicate, and solve problems.</p>
+        <p className="mt-4">
+          By moving beyond 'screens as books,' we can unlock new ways for
+          students to create, communicate, and solve problems.
+        </p>
       </div>
     ),
     icon: <Monitor className="w-6 h-6" />,
-    image: 'https://images.unsplash.com/photo-1587037325379-0b8807b41f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
-    accent: 'bg-indigo-600',
-    border: 'border-indigo-500/50',
+    image:
+      'https://images.unsplash.com/photo-1587037325379-0b8807b41f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+    accent: 'bg-teal-600',
+    border: 'border-teal-500/50',
   },
   {
     id: 3,
-    title: 'Emotional Intelligence',
-    description: 'Teaching the whole child. My approach prioritizes socio-emotional learning, fostering a safe environment for empathy and resilience.',
+    title: 'Tulevaisuuden tekeminen',
+    description:
+      'Teaching the whole child. My approach prioritizes socio-emotional learning, fostering a safe environment for empathy and resilience.',
     longContent: (
       <div className="space-y-4 text-slate-300">
         <h1>Emotional Intelligence</h1>
-        <p>A student cannot learn effectively if they do not feel safe, seen, and supported. Emotional intelligence is a prerequisite for academic success.</p>
-        <h4 className="text-white font-bold text-lg mt-6">Classroom Pillars:</h4>
+        <p>
+          A student cannot learn effectively if they do not feel safe, seen, and
+          supported. Emotional intelligence is a prerequisite for academic
+          success.
+        </p>
+        <h4 className="text-white font-bold text-lg mt-6">
+          Classroom Pillars:
+        </h4>
         <ul className="list-disc pl-5 space-y-2">
-          <li><strong>Self-Regulation:</strong> Tools and techniques (like mindfulness) to help students manage their emotions.</li>
-          <li><strong>Empathy Building:</strong> Literature and activities designed to help students understand perspectives different from their own.</li>
-          <li><strong>Conflict Resolution:</strong> Restorative justice practices that focus on repairing harm rather than just punishment.</li>
+          <li>
+            <strong>Self-Regulation:</strong> Tools and techniques (like
+            mindfulness) to help students manage their emotions.
+          </li>
+          <li>
+            <strong>Empathy Building:</strong> Literature and activities
+            designed to help students understand perspectives different from
+            their own.
+          </li>
+          <li>
+            <strong>Conflict Resolution:</strong> Restorative justice practices
+            that focus on repairing harm rather than just punishment.
+          </li>
         </ul>
-        <p className="mt-4">I believe that teaching empathy is just as important as teaching literacy.</p>
+        <p className="mt-4">
+          I believe that teaching empathy is just as important as teaching
+          literacy.
+        </p>
       </div>
     ),
     icon: <Heart className="w-6 h-6" />,
-    image: 'https://images.unsplash.com/photo-1666198259234-f7033c78b94e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
-    accent: 'bg-rose-600',
-    border: 'border-rose-500/50',
+    image:
+      'https://images.unsplash.com/photo-1666198259234-f7033c78b94e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+    accent: 'bg-indigo-950',
+    border: 'border-indigo-950/50',
   },
 ];
 
 export function TeachingThemes() {
-  const [selectedTheme, setSelectedTheme] = useState<typeof themes[0] | null>(null);
+  const [selectedTheme, setSelectedTheme] = useState<(typeof themes)[0] | null>(
+    null,
+  );
 
   return (
-    <section id="themes" className="py-24 px-4 bg-slate-950">
+    <section id="themes" className="py-12 px-4 bg-slate-950 scroll-mt-12">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">Opetustyöni perusperiaatteet</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            Opettajan osaamisalueet
+          </h2>
           <p className="text-slate-400 max-w-2xl">
-            Opetustyöni rakentuu kolmelle peruspilarille, jotka ohjaavat toimintaani luennoilla, verkkokursseilla ja toiminnassa opiskelijoiden kanssa ylipäänsä.
+            Ammatillisessa opettajakoulutuksessa opettajan osaamisalueita
+            lähestyttiin oppimisen ohjaamisen, tulevaisuuden tekemisen ja
+            ammatillisen opettajuuden kehittämisen näkökulmista.
           </p>
+        </div>
+
+        {/* Placeholder for themes overview graphic */}
+        <div className="mb-16 flex justify-center">
+          <div className="w-full max-w-4xl rounded-3xl overflow-hidden border border-slate-700/50">
+            <ImageWithFallback
+              src="https://tiko.jamk.fi/~hsateila/files/opettajan-osaamisalueet.jpg"
+              alt="Teaching themes overview"
+              className="w-full h-full object-contain"
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -103,30 +180,40 @@ export function TeachingThemes() {
                   alt={theme.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-transparent to-slate-950"></div>
               </div>
-              
-              <div className="absolute inset-0 p-8 flex flex-col justify-end translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
-                <div className={`${theme.accent} w-12 h-12 rounded-2xl flex items-center justify-center text-white mb-6 shadow-lg shadow-black/50`}>
+
+              {/* Top content - Icon and Title */}
+              <div className="absolute top-0 left-0 right-0 p-8">
+                <div
+                  className={`${theme.accent} w-12 h-12 rounded-2xl flex items-center justify-center text-white mb-6 shadow-lg shadow-black/50`}
+                >
                   {theme.icon}
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4">{theme.title}</h3>
-                <p className="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h3 className="text-2xl font-bold text-white mb-4">
+                  {theme.title}
+                </h3>
+              </div>
+
+              {/* Bottom content - Button and Description */}
+              <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col">
+                <div className="translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
+                  <div className="flex justify-center mb-4">
+                    <button className="text-xs font-bold uppercase tracking-widest text-white/50 group-hover:text-white hover:underline transition-colors cursor-pointer">
+                      Lue lisää →
+                    </button>
+                  </div>
+                </div>
+                <p className="text-slate-300 text-sm leading-relaxed max-h-0 group-hover:max-h-32 overflow-hidden transition-all duration-300">
                   {theme.description}
                 </p>
-                <button className="mt-6 text-xs font-bold uppercase tracking-widest text-white/50 group-hover:text-white transition-colors">
-                  Lue lisää →
-                </button>
               </div>
             </motion.div>
           ))}
         </div>
       </div>
 
-      <Modal
-        isOpen={!!selectedTheme}
-        onClose={() => setSelectedTheme(null)}
-      >
+      <Modal isOpen={!!selectedTheme} onClose={() => setSelectedTheme(null)}>
         {selectedTheme?.longContent}
       </Modal>
     </section>
