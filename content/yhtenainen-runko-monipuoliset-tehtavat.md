@@ -2,13 +2,13 @@
 
 Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.
 
-### Toteutus
+## Toteutus
 
 Olen kerännyt aineistoksi muutamia tapoja toteuttaa erilaisia verkkotetäviä sekä yksilötehtävinä että ryhmätöinä. Näitä tehtävätyyppejä varioin kursseilla, jotta tehtäviin saadaan vaihtelua.
 
 Testataan tähän vielä muutoksia ja katsotaan miten se toimii.
 
-### Perusrunko
+## Perusrunko
 
 Tehtävien runko pysyy kuitenkin aina samana:
 
@@ -18,6 +18,6 @@ Tehtävien runko pysyy kuitenkin aina samana:
 
 ---
 
-#### Reflective Question:
+### Reflective Question
 
-> "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?"
+> "How might I adapt this concept to better serve a classroom with diverse cognitive abilities?" Testing!
