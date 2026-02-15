@@ -8,6 +8,8 @@ Opettajuuteni rakentuu kolmelle vahvalle perustalle: **henkilökohtaiselle ohjau
 
 **Tiedostan omat kehittämisen kohteet:** suurten ryhmien ohjauksessa minulla on vielä opittavaa, ja palautteen antaminen vaatii minulta systemaattisempaa lähestymistapaa. Kuitenkin jatkuva oppiminen ja kehittyminen ovat minulle luontaisia – ne ovat myös se, mitä opetan opiskelijoilleni. Opettajana olen sitoutunut siihen, että opetukseni kehittyy yhdessä opiskelijoideni kanssa, ja että pysyn ajan tasalla nopeasti muuttuvalla ICT-alalla. Tämä on opettajuuteni lupaus: olla läsnä, ohjata, tukea ja kasvaa yhdessä jokaisen opiskelijan kanssa.
 
+![Tekoälyn tuottama "tiko-opettaja"](/images/content/tiko-opettaja-4.jpg)
+
 ## Teoreettiset lähtökohdat ja oma käyttöteoria
 
 Kirjoitin aiemmin opetusharjoittelun suunnitelmassani käyttöteoriasta, ja koin itselleni parhaiksi teoreettisiksi lähtökohdiksi konstruktivistisen oppimiskäsityksen sekä erityisesti valmentavan opettajuuden. **Konstruktivistisen oppimiskäsityksen** mukaan uusi tieto omaksutaan jo opittujen asioiden päälle ja asioita käydään jatkuvasti läpi perustuen aiemmin opittuun. Tämä näkyy erityisesti siinä että pyrin aina sitomaan käsiteltävän asian suoraan joko edeltävien opintojaksojen sisältöihin tai opintojen alkupuolella opiskelijoiden omaan kokemuspiiriin. Tämä edellyttää sitä, että käyn hieman keskusteluja opiskelijoiden kanssa heidän tietoteknisistä taidoistaan sekä olemassaolevasta tietämyksestään. Näin pystyn heti alussa konkretisoimaan haastavampiakin konsepteja, toki mahdollisuuksien mukaan.
