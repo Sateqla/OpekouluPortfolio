@@ -36,7 +36,7 @@ export function Hero() {
                 href="#timeline"
                 className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-500 transition-all shadow-lg shadow-blue-900/20 inline-block"
               >
-                Matka opettajana
+                Matka opettajaksi
               </a>
               <a
                 href="https://fi.linkedin.com/in/heikkisateila"

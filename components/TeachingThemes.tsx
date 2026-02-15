@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { Users, Monitor, Heart } from 'lucide-react';
+import { Users, Telescope, Lightbulb } from 'lucide-react';
 import { Modal } from './Modal';
 
 const themes = [
@@ -111,7 +111,7 @@ const themes = [
         <p className="mt-4">Tähän taas joku tiivsitys tästä aiheesta.</p>
       </div>
     ),
-    icon: <Monitor className="w-6 h-6" />,
+    icon: <Lightbulb className="w-6 h-6" />,
     image:
       'https://images.unsplash.com/photo-1587037325379-0b8807b41f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
     accent: 'bg-teal-600',
@@ -171,7 +171,7 @@ const themes = [
         </p>
       </div>
     ),
-    icon: <Heart className="w-6 h-6" />,
+    icon: <Telescope className="w-6 h-6" />,
     image:
       'https://images.unsplash.com/photo-1666198259234-f7033c78b94e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
     accent: 'bg-indigo-950',

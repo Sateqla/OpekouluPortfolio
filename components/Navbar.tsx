@@ -30,7 +30,7 @@ export function Navbar() {
               href="#learnings"
               className="text-sm font-medium text-slate-400 hover:text-blue-400 transition-colors"
             >
-              Opintopäiväkirja
+              Opintopäiväkirjasta
             </a>
             <a
               href="#timeline"

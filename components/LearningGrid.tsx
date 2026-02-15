@@ -10,87 +10,88 @@ import {
 import ReactMarkdown from 'react-markdown';
 import { Modal } from './Modal';
 
-import socraticMethod from '../content/socratic-method.md?raw';
-import bloomsTaxonomy from '../content/blooms-taxonomy.md?raw';
-import differentiatedInstruction from '../content/differentiated-instruction.md?raw';
-import inquiryBasedLearning from '../content/inquiry-based-learning.md?raw';
-import clilMethodology from '../content/clil-methodology.md?raw';
-import cooperativeLearning from '../content/cooperative-learning.md?raw';
-import diverseLearningTasks from '../content/diverse-learning-tasks.md?raw';
+import omaOpettajuus from '../content/oma-opettajuus-ja-identiteetti.md?raw';
+import oppimiskasityksetPedagogiset from '../content/oppimiskasitykset-ja-pedagogiset-menetelmat.md?raw';
+import henkilokohtainenOhjaus from '../content/henkilokohtainen-ohjaus-ja-erityispiirteet.md?raw';
+import erityinenTukiSaavutettavuus from '../content/erityinen-tuki-saavutettavuus-ja-yhdenvertaisuus.md?raw';
+import tulevaisuusOrientaatio from '../content/tulevaisuusorientaatio-ja-teknologia.md?raw';
+import arviointiPalaute from '../content/arviointi-ja-palaute.md?raw';
+import monipuolisetTehtavat from '../content/yhtenainen-runko-monipuoliset-tehtavat.md?raw';
 
 const learnings = [
   {
     id: 1,
-    category: 'Methods',
-    title: 'The Socratic Method',
+    category: 'Oppimisen ohjaaminen',
+    title: 'Oma opettajuus ja identiteetti',
     summary: 'Using directed inquiry to foster critical thinking.',
-    content: socraticMethod,
+    content: omaOpettajuus,
     icon: <PenTool className="w-5 h-5" />,
   },
   {
     id: 2,
-    category: 'Psychology',
-    title: "Bloom's Taxonomy",
+    category: 'Ammatillisen opettajuuden kehittäminen',
+    title: 'Oppimiskäsitykset ja pedagogiset menetelmät',
     summary: 'Framework for categorizing educational goals.',
-    content: bloomsTaxonomy,
+    content: oppimiskasityksetPedagogiset,
     icon: <BookOpen className="w-5 h-5" />,
   },
   {
     id: 3,
-    category: 'Diversity',
-    title: 'Differentiated Instruction',
+    category: 'Oppimisen ohjaaminen',
+    title: 'Henkilökohtainen ohjaus ja yksilön erityispiirteet',
     summary: 'Tailoring lessons to individual learning styles.',
-    content: differentiatedInstruction,
+    content: henkilokohtainenOhjaus,
     icon: <Globe className="w-5 h-5" />,
   },
   {
     id: 4,
-    category: 'Science',
-    title: 'Inquiry-Based Learning',
+    category: 'Ammatillisen opettajuuden kehittäminen',
+    title: 'Erityinen tuki, saavutettavuus ja yhdenvertaisuus',
     summary: 'Students learn by posing questions and solving problems.',
-    content: inquiryBasedLearning,
+    content: erityinenTukiSaavutettavuus,
     icon: <FlaskConical className="w-5 h-5" />,
   },
   {
     id: 5,
-    category: 'Languages',
-    title: 'CLIL Methodology',
+    category: 'Tulevaisuuden tekeminen',
+    title: 'Tulevaisuusorientaatio ja teknologia',
     summary: 'Content and Language Integrated Learning.',
-    content: clilMethodology,
+    content: tulevaisuusOrientaatio,
     icon: <Languages className="w-5 h-5" />,
   },
   {
     id: 6,
-    category: 'Methods',
-    title: 'Cooperative Learning',
-    summary: 'Small group techniques for social academic skills.',
-    content: cooperativeLearning,
+    category: 'Oppimisen ohjaaminen',
+    title: 'Arviointi ja palaute',
+    summary:
+      'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
+    content: arviointiPalaute,
     icon: <PenTool className="w-5 h-5" />,
   },
   {
     id: 7,
-    category: 'Methods',
+    category: 'Oppimisen ohjaaminen',
     title: 'Monipuoliset (verkko-)oppimistehtävät',
     summary:
       'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
-    content: diverseLearningTasks,
+    content: monipuolisetTehtavat,
     icon: <PenTool className="w-5 h-5" />,
   },
 ];
 
 export function LearningGrid() {
-  const [filter, setFilter] = useState('All');
+  const [filter, setFilter] = useState('Kaikki');
   const [selectedLearning, setSelectedLearning] = useState<
     (typeof learnings)[0] | null
   >(null);
 
   const categories = [
-    'All',
+    'Kaikki',
     ...Array.from(new Set(learnings.map((l) => l.category))),
   ];
 
   const filteredItems =
-    filter === 'All'
+    filter === 'Kaikki'
       ? learnings
       : learnings.filter((l) => l.category === filter);
 
