@@ -56,7 +56,7 @@ export function Hero() {
           >
             <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500 border-4 border-slate-800">
               <ImageWithFallback
-                src="https://tiko.jamk.fi/~hsateila/files/SATEHE-iso.jpg"
+                src="images/hero.jpg"
                 alt="Heikki Sateilan muotokuva"
                 className="w-full aspect-[4/5] object-cover opacity-90"
               />

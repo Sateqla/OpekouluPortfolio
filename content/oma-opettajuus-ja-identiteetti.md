@@ -8,7 +8,7 @@ Opettajuuteni rakentuu kolmelle vahvalle perustalle: **henkilökohtaiselle ohjau
 
 **Tiedostan omat kehittämisen kohteet:** suurten ryhmien ohjauksessa minulla on vielä opittavaa, ja palautteen antaminen vaatii minulta systemaattisempaa lähestymistapaa. Kuitenkin jatkuva oppiminen ja kehittyminen ovat minulle luontaisia – ne ovat myös se, mitä opetan opiskelijoilleni. Opettajana olen sitoutunut siihen, että opetukseni kehittyy yhdessä opiskelijoideni kanssa, ja että pysyn ajan tasalla nopeasti muuttuvalla ICT-alalla. Tämä on opettajuuteni lupaus: olla läsnä, ohjata, tukea ja kasvaa yhdessä jokaisen opiskelijan kanssa.
 
-![Tekoälyn tuottama "tiko-opettaja"](/images/content/tiko-opettaja-4.jpg)
+![Tekoälyn tuottama "tiko-opettaja"](images/content/tiko-opettaja-4.jpg)
 
 ## Teoreettiset lähtökohdat ja oma käyttöteoria
 
