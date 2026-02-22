@@ -1,4 +1,5 @@
-import { Mail, Linkedin, GraduationCap } from 'lucide-react';
+import { Mail, GraduationCap } from 'lucide-react';
+import { SiLinkedin, SiGithub } from './icons';
 
 export function Footer() {
   return (
@@ -25,7 +26,7 @@ export function Footer() {
                 className="p-2 bg-slate-900 rounded-full text-slate-400 hover:bg-blue-500/10 hover:text-blue-400 transition-colors border border-slate-800"
                 target="_blank"
               >
-                <Linkedin className="w-5 h-5" />
+                <SiLinkedin className="w-5 h-5" />
               </a>
               <a
                 href="https://www.jamk.fi/fi/asiantuntija/heikki-sateila"
@@ -33,6 +34,13 @@ export function Footer() {
                 target="_blank"
               >
                 <Mail className="w-5 h-5" />
+              </a>
+              <a
+                href="https://github.com/hsateila/"
+                className="p-2 bg-slate-900 rounded-full text-slate-400 hover:bg-blue-500/10 hover:text-blue-400 transition-colors border border-slate-800"
+                target="_blank"
+              >
+                <SiGithub className="w-5 h-5" />
               </a>
             </div>
           </div>
