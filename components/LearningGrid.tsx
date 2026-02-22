@@ -3,9 +3,12 @@ import { motion, AnimatePresence } from 'motion/react';
 import {
   BookOpen,
   PenTool,
+  Fingerprint,
+  Scale,
   Globe,
-  FlaskConical,
+  HandHeart,
   Languages,
+  Library,
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { Modal } from './Modal';
@@ -17,6 +20,7 @@ import erityinenTukiSaavutettavuus from '../content/erityinen-tuki-saavutettavuu
 import tulevaisuusOrientaatio from '../content/tulevaisuusorientaatio-ja-teknologia.md?raw';
 import arviointiPalaute from '../content/arviointi-ja-palaute.md?raw';
 import monipuolisetTehtavat from '../content/yhtenainen-runko-monipuoliset-tehtavat.md?raw';
+import opettajuudenKayttoteoria from '../content/opettajuuden-kayttoteoria-ja-teoreettiset-lahtokohdat.md?raw';
 
 const learnings = [
   {
@@ -26,18 +30,27 @@ const learnings = [
     summary:
       'Opettajuuteni rakentuu kolmelle vahvalle perustalle: henkilökohtaiselle ohjaukselle, käytännönläheisyydelle ja opiskelijan kehittymisen tukemiselle.',
     content: omaOpettajuus,
-    icon: <PenTool className="w-5 h-5" />,
+    icon: <Fingerprint className="w-5 h-5" />,
   },
   {
     id: 2,
+    category: 'Oppimisen ohjaaminen',
+    title: 'Opettajuuden käyttöteoria ja teoreettiset lähtökohdat',
+    summary:
+      'Minun käsitykseni oppimisesta perustuu käytännön oppimiseen ja tekemiseen, mutta vakaalla teoreettisella pohjalla.',
+    content: opettajuudenKayttoteoria,
+    icon: <Library className="w-5 h-5" />,
+  },
+  {
+    id: 3,
     category: 'Ammatillisen opettajuuden kehittäminen',
     title: 'Oppimiskäsitykset ja pedagogiset menetelmät',
-    summary: 'Framework for categorizing educational goals.',
+    summary: 'Ammatillisen ja korkeakouluopetuksen keskeisinä pedagogisina lähestymistapoina korostuvat vahvasti opiskelijakeskeisyys ja aktiivinen oppiminen.',
     content: oppimiskasityksetPedagogiset,
     icon: <BookOpen className="w-5 h-5" />,
   },
   {
-    id: 3,
+    id: 4,
     category: 'Oppimisen ohjaaminen',
     title: 'Henkilökohtainen ohjaus ja yksilön erityispiirteet',
     summary: 'Tailoring lessons to individual learning styles.',
@@ -45,15 +58,15 @@ const learnings = [
     icon: <Globe className="w-5 h-5" />,
   },
   {
-    id: 4,
+    id: 5,
     category: 'Ammatillisen opettajuuden kehittäminen',
     title: 'Erityinen tuki, saavutettavuus ja yhdenvertaisuus',
-    summary: 'Students learn by posing questions and solving problems.',
+    summary: 'Koko ihmisen oppimispolun ajan on tarkoitus mahdollistaa mahdollisimman monipuolisesti erilaisten oppijoiden oppiminen.',
     content: erityinenTukiSaavutettavuus,
-    icon: <FlaskConical className="w-5 h-5" />,
+    icon: <HandHeart className="w-5 h-5" />,
   },
   {
-    id: 5,
+    id: 6,
     category: 'Tulevaisuuden tekeminen',
     title: 'Tulevaisuusorientaatio ja teknologia',
     summary: 'Content and Language Integrated Learning.',
@@ -61,16 +74,16 @@ const learnings = [
     icon: <Languages className="w-5 h-5" />,
   },
   {
-    id: 6,
+    id: 7,
     category: 'Oppimisen ohjaaminen',
     title: 'Arviointi ja palaute',
     summary:
       'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
     content: arviointiPalaute,
-    icon: <PenTool className="w-5 h-5" />,
+    icon: <Scale className="w-5 h-5" />,
   },
   {
-    id: 7,
+    id: 8,
     category: 'Oppimisen ohjaaminen',
     title: 'Monipuoliset (verkko-)oppimistehtävät',
     summary:
@@ -157,7 +170,7 @@ export function LearningGrid() {
                   {item.summary}
                 </p>
                 <div className="text-blue-500 text-xs font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
-                  View full summary →
+                  Klikkaa ja lue koko teksti →
                 </div>
               </motion.div>
             ))}
