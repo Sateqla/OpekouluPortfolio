@@ -5,7 +5,7 @@ import {
   PenTool,
   Fingerprint,
   Scale,
-  Globe,
+  User,
   HandHeart,
   Languages,
   Library,
@@ -15,7 +15,7 @@ import { Modal } from './Modal';
 
 import omaOpettajuus from '../content/oma-opettajuus-ja-identiteetti.md?raw';
 import oppimiskasityksetPedagogiset from '../content/oppimiskasitykset-ja-pedagogiset-menetelmat.md?raw';
-import henkilokohtainenOhjaus from '../content/henkilokohtainen-ohjaus-ja-erityispiirteet.md?raw';
+import aikuisopiskelijanErityispiirteet from '../content/aikuisopiskelijan-erityispiirteet.md?raw';
 import erityinenTukiSaavutettavuus from '../content/erityinen-tuki-saavutettavuus-ja-yhdenvertaisuus.md?raw';
 import tulevaisuusOrientaatio from '../content/tulevaisuusorientaatio-ja-teknologia.md?raw';
 import arviointiPalaute from '../content/arviointi-ja-palaute.md?raw';
@@ -52,10 +52,10 @@ const learnings = [
   {
     id: 4,
     category: 'Oppimisen ohjaaminen',
-    title: 'Henkilökohtainen ohjaus ja yksilön erityispiirteet',
-    summary: 'Tailoring lessons to individual learning styles.',
-    content: henkilokohtainenOhjaus,
-    icon: <Globe className="w-5 h-5" />,
+    title: 'Aikuisopiskelijan erityispiirteet',
+    summary: 'Aikuisopiskelijan oppiminen poikkeaa nuorten opiskelijoiden oppimisesta monin tavoin.',
+    content: aikuisopiskelijanErityispiirteet,
+    icon: <User className="w-5 h-5" />,
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const learnings = [
     id: 6,
     category: 'Tulevaisuuden tekeminen',
     title: 'Tulevaisuusorientaatio ja teknologia',
-    summary: 'Content and Language Integrated Learning.',
+    summary: 'Koulutuksen osana oli tutustua tulevaisuudentutkimuksen järjestelmällisiin menetelmiin, joilla opetusta, oppilaitoksia ja kokonaisia koulutusaloja voidaan kehittää systemaattisesti ja tulevaisuutta ennakoiden.',
     content: tulevaisuusOrientaatio,
     icon: <Languages className="w-5 h-5" />,
   },
