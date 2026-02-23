@@ -192,10 +192,10 @@ export function TeachingThemes() {
             Opettajan osaamisalueet
           </h2>
           <p className="text-slate-400 max-w-2xl">
-            Ammatillisessa opettajakoulutuksessa opettajan osaamisalueita
-            lähestyttiin oppimisen ohjaamisen, tulevaisuuden tekemisen ja
-            ammatillisen opettajuuden kehittämisen näkökulmista.
+            Ammatillisessa opettajakoulutuksessa <strong>opettajan osaamisalueita</strong> lähestyttiin oppimisen ohjaamisen, tulevaisuuden tekemisen ja
+            ammatillisen opettajuuden kehittämisen näkökulmista. Tässä osiossa käyn läpi nämä osaamisalueet, miten ne ymmärrän ja miten ne näkyvät omassa työssäni.
           </p>
+          <p className="text-slate-400 max-w-2xl mt-4"><strong>Oppimispäiväkirjasta</strong> -osio taas sisältää tarkempia kuvauksia ja pohdintoja oppimastani sekä malleista jotka vaikuttavat opettajuuteeni ja työni tekemiseen. Nämä kirjoitukset on jaoteltu opettajan osaamisalueiden tarkempien osien mukaisesti.</p>
         </div>
 
         {/* Placeholder for themes overview graphic */}

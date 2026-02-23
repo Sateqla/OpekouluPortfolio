@@ -14,16 +14,8 @@ Tämä on nopea ja osallistava asiantuntijoiden tai opiskelijoiden kanssa tehtä
 
 Tulevaisuudentutkimuksen menetelmä, jolla kerätään alan asiantuntijoilta näkemyksiä tulevaisuuden tarpeista, haasteista ja toivotuista oppimismuodoista. Menetelmän vahvuus on siinä, että asiantuntijat (kuten aineiston tapauksessa koirankasvattajat) voivat tuoda esiin innovatiivisia ratkaisuja ja haasteita, joita tutkija ei osaisi ennalta kysyä tai ennakoida. Opetuksen kehittämisen kontekstissa tämä on hyvä tapa toteuttaa työelämälähtöisyyttä osallistamalla työnantajia opetuksen kehittämiseen hankkimalla tarvittavaa ajankohtaista tietoa työelämän käytännöistä ja asiakkaiden tarpeista.
 
-## Tutkimuksellinen kehittämistoiminta osana opetussuunnitelmatyötä
-
-Siinä missä yllä olevat menetelmäesimerkit pyrkivät hahmottamaan pidemmälle tulevaisuuteen, alla olevien menetelmien avulla voidaan tarkemmin selvittää, mitä opiskelijat työelmässään tulevaisuudessa tarvitsevat.
-
-Koulutuksen kehittämistä voidaan lähestyä lineaarisen kehittämisprosessin kautta, joka sisältää tavoitteen määrittelyn, taustoituksen, toteutuksen suunnittelun, arvioinnin ja tulosten levittämisen. Menetelmä tuo kehittämiseen järjestelmällisyyttä ja uskottavuutta, minkä avulla on opetussuunnitelmien kehittämisen kontekstissa helpompi sitoutua suunniteltuun opetukseen ja sen sisältöihin. ICT-alalla meillä on kuitenkin jätettävä suunnitelmiin muutosvaraa: maailma muuttuu opetussuunnitelman aikana varsin nopeasti ja paljon.
-
 ---
 
 ## Lähteet
 
-> Talvela, J. Stenman, K. 2012. Tulevaisuudentutkimuksen menetelmiä. Kymenlaakson ammattikorkeakoulu. https://www.theseus.fi/bitstream/handle/10024/47132/tutu_kirja_web_ver3.pdf
-
-> Toikko, T., & Rantanen, T. (2009). Tutkimuksellinen kehittämistoiminta: Näkökulmia kehittämis-prosessiin, osallistamiseen ja tiedontuotantoon. Tampereen Yliopistopaino Oy – Juvenes Print. https://trepo.tuni.fi/bitstream/handle/10024/100802/Toikko_Rantanen_Tutkimuksellinen_kehittamistoiminta.pdf
+> Talvela, J. Stenman, K. 2012. Tulevaisuudentutkimuksen menetelmiä. Kymenlaakson ammattikorkeakoulu. [Lähdelinkki](https://www.theseus.fi/bitstream/handle/10024/47132/tutu_kirja_web_ver3.pdf).

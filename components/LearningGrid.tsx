@@ -7,8 +7,11 @@ import {
   Scale,
   User,
   HandHeart,
-  Languages,
+  Telescope,
   Library,
+  Sparkles,
+  TrendingUp,
+  NotebookPen
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { Modal } from './Modal';
@@ -21,11 +24,14 @@ import tulevaisuusOrientaatio from '../content/tulevaisuusorientaatio-ja-teknolo
 import arviointiPalaute from '../content/arviointi-ja-palaute.md?raw';
 import monipuolisetTehtavat from '../content/yhtenainen-runko-monipuoliset-tehtavat.md?raw';
 import opettajuudenKayttoteoria from '../content/opettajuuden-kayttoteoria-ja-teoreettiset-lahtokohdat.md?raw';
+import tekoalyTietojenkasittelynOpetuksessa from '../content/tekoaly-tietojenkasittelyn-opetuksessa.md?raw';
+import kehittamisosaaminen from '../content/kehittamisosaaminen.md?raw';
+import oppimispaivakirja from '../content/oppimispaivakirja.md?raw';
 
 const learnings = [
   {
     id: 1,
-    category: 'Oppimisen ohjaaminen',
+    category: 'Toimijuusosaaminen',
     title: 'Oma opettajuus ja identiteetti',
     summary:
       'Opettajuuteni rakentuu kolmelle vahvalle perustalle: henkilökohtaiselle ohjaukselle, käytännönläheisyydelle ja opiskelijan kehittymisen tukemiselle.',
@@ -34,7 +40,7 @@ const learnings = [
   },
   {
     id: 2,
-    category: 'Oppimisen ohjaaminen',
+    category: 'Ammattipedagoginen osaaminen',
     title: 'Opettajuuden käyttöteoria ja teoreettiset lähtökohdat',
     summary:
       'Minun käsitykseni oppimisesta perustuu käytännön oppimiseen ja tekemiseen, mutta vakaalla teoreettisella pohjalla.',
@@ -43,7 +49,7 @@ const learnings = [
   },
   {
     id: 3,
-    category: 'Ammatillisen opettajuuden kehittäminen',
+    category: 'Ammattipedagoginen osaaminen',
     title: 'Oppimiskäsitykset ja pedagogiset menetelmät',
     summary: 'Ammatillisen ja korkeakouluopetuksen keskeisinä pedagogisina lähestymistapoina korostuvat vahvasti opiskelijakeskeisyys ja aktiivinen oppiminen.',
     content: oppimiskasityksetPedagogiset,
@@ -51,7 +57,7 @@ const learnings = [
   },
   {
     id: 4,
-    category: 'Oppimisen ohjaaminen',
+    category: 'Kohtaamisosaaminen',
     title: 'Aikuisopiskelijan erityispiirteet',
     summary: 'Aikuisopiskelijan oppiminen poikkeaa nuorten opiskelijoiden oppimisesta monin tavoin.',
     content: aikuisopiskelijanErityispiirteet,
@@ -59,7 +65,7 @@ const learnings = [
   },
   {
     id: 5,
-    category: 'Ammatillisen opettajuuden kehittäminen',
+    category: 'Kohtaamisosaaminen',
     title: 'Erityinen tuki, saavutettavuus ja yhdenvertaisuus',
     summary: 'Koko ihmisen oppimispolun ajan on tarkoitus mahdollistaa mahdollisimman monipuolisesti erilaisten oppijoiden oppiminen.',
     content: erityinenTukiSaavutettavuus,
@@ -67,15 +73,15 @@ const learnings = [
   },
   {
     id: 6,
-    category: 'Tulevaisuuden tekeminen',
-    title: 'Tulevaisuusorientaatio ja teknologia',
+    category: 'Tulevaisuusosaaminen',
+    title: 'Tulevaisuusorientaatio',
     summary: 'Koulutuksen osana oli tutustua tulevaisuudentutkimuksen järjestelmällisiin menetelmiin, joilla opetusta, oppilaitoksia ja kokonaisia koulutusaloja voidaan kehittää systemaattisesti ja tulevaisuutta ennakoiden.',
     content: tulevaisuusOrientaatio,
-    icon: <Languages className="w-5 h-5" />,
+    icon: <Telescope className="w-5 h-5" />,
   },
   {
     id: 7,
-    category: 'Oppimisen ohjaaminen',
+    category: 'Reflektio-osaaminen',
     title: 'Arviointi ja palaute',
     summary:
       'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
@@ -84,12 +90,37 @@ const learnings = [
   },
   {
     id: 8,
-    category: 'Oppimisen ohjaaminen',
+    category: 'Oppimisprosessien ohjausosaaminen',
     title: 'Monipuoliset (verkko-)oppimistehtävät',
     summary:
       'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
     content: monipuolisetTehtavat,
     icon: <PenTool className="w-5 h-5" />,
+  },
+  {
+    id: 9,
+    category: 'Kehittämisosaaminen',
+    title: 'Tutkimuksellinen kehittämistoiminta osana opetussuunnitelmatyötä',
+    summary:
+      'Vaihtelevia tehtävätyyppejä ja harjoituksia mutta sama perusrunko.',
+    content: kehittamisosaaminen,
+    icon: <TrendingUp className="w-5 h-5" />,
+  },
+  {
+    id: 10,
+    category: 'Tulevaisuusosaaminen',
+    title: 'Tekoäly muuttaa tietojenkäsittelyn opetuksen ja opiskelun',
+    summary: 'Tekoälyn nopea kehitys on mullistanut ohjelmistoalan ja tietojenkäsittelyn (ICT) käytännöt vain parin viime vuoden aikana.',
+    content: tekoalyTietojenkasittelynOpetuksessa,
+    icon: <Sparkles className="w-5 h-5" />,
+  },
+  {
+    id: 11,
+    category: 'Toimijuusosaaminen',
+    title: 'Oppimispäiväkirja',
+    summary: 'Tässä on opintojen aikana muotoutunut oppimispäiväkirja sellaisena kuin se muotoutui silloin. Sisältää listoja, tajunnanvirtaa ja muuta pohdintaa.',
+    content: oppimispaivakirja,
+    icon: <NotebookPen className="w-5 h-5" />,
   },
 ];
 
@@ -120,8 +151,9 @@ export function LearningGrid() {
             <p className="text-slate-400">
               Teorioita, menetelmiä ja konsepteja joita opiskelin ja sovellan
               opetustyössäni. Opintojen kulkua, harjoittelua ja niistä
-              syntyneitä oivalluksia.
+              syntyneitä oivalluksia. Näistä opettajuuteni rakentuu. 
             </p>
+            <p className="text-slate-400"><br/>Aiheet on kategorisoitu ammatillisen opettajankoulutuksen osaamisalueiden mukaisesti, joskin joidenkin osalta kategorisointi on hieman hankalaa aiheiden istuessa useampaankin kategoriaan.</p>
           </div>
 
           <div className="flex flex-wrap gap-2">
