@@ -11,7 +11,8 @@ import {
   Library,
   Sparkles,
   TrendingUp,
-  NotebookPen
+  NotebookPen,
+  SquareUser
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { Modal } from './Modal';
@@ -27,6 +28,7 @@ import opettajuudenKayttoteoria from '../content/opettajuuden-kayttoteoria-ja-te
 import tekoalyTietojenkasittelynOpetuksessa from '../content/tekoaly-tietojenkasittelyn-opetuksessa.md?raw';
 import kehittamisosaaminen from '../content/kehittamisosaaminen.md?raw';
 import oppimispaivakirja from '../content/oppimispaivakirja.md?raw';
+import portfolioJaKokoavaItsearviointi from '../content/portfolio-ja-kokoava-itsearviointi.md?raw';
 
 const learnings = [
   {
@@ -118,9 +120,17 @@ const learnings = [
     id: 11,
     category: 'Toimijuusosaaminen',
     title: 'Oppimispäiväkirja',
-    summary: 'Tässä on opintojen aikana muotoutunut oppimispäiväkirja sellaisena kuin se muotoutui silloin. Sisältää listoja, tajunnanvirtaa ja muuta pohdintaa.',
+    summary: 'Tässä on opintojen aikana kirjoitettu oppimispäiväkirja sellaisena kuin se muotoutui silloin. Sisältää listoja, tajunnanvirtaa ja muuta pohdintaa.',
     content: oppimispaivakirja,
     icon: <NotebookPen className="w-5 h-5" />,
+  },
+  {
+    id: 12,
+    category: 'Reflektio-osaaminen',
+    title: 'Portfolio ja kokoava itsearviointi',
+    summary: 'Tässä osiossa kerron porftolion luomisesta, oppimisprosessistani opinnoista ja arvioin tarkemmin omaa kehittymistäni opettajana. Pohdin myös alkuperäisiä tavoitteita ja niiden saavuttamista. Täällä on myös erikseen palautettava kokoava itsearviointi.',
+    content: portfolioJaKokoavaItsearviointi,
+    icon: <SquareUser className="w-5 h-5" />,
   },
 ];
 
