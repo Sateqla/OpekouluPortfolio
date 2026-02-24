@@ -14,4 +14,4 @@ Kehittämisosaamista tarvitaan sekä koulutuksen yleisen tason kehittämisessä 
 
 Toisaalta ammatillisen opettajan työhön kuuluu hyvin vahvasti koulutuksen kehttäminen osana omaa opetusta ja tutkinto-ohjelmaa.
 
-_Ennustaminen on vaikeaa. Etenkin tulevaisuuden._
+*Ennustaminen on vaikeaa. Varsinkin tulevaisuuden.*

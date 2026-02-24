@@ -10,17 +10,31 @@ Testi kuitenkin oli erittäin arvokas ja opetti minulle samalla monenmoista teko
 
 ## Oppimisprosessi
 
-Tähän tekstiä siitä miten oppimisprosessi eteni opintojaksoilla
+Opettajaopinnoistani päällimmäisenä jäi mieleen se, että kun sain asiat vauhtiin, asioita myös valmistui. Opintojaksojen rakenteet ja tehtävämallit tukivat tekemistä erinomaisesti: otan näistä opintojakson rakenteista Moodlessa monia ajatuksia itselleni talteen ja pyrin muotoilemaan omia opintojaksojani samaan tapaan. Lukemaan keskittyminen on minulle vaikeaa, ja näin on varsinkin silloin kun asia ei aivan osu omalle kiinnostusalueelle. Tässä auttoi se, että pystyin soveltamaan oppimaani melko suoraan omassa työssäni ammattikorkeakouluopettajana. Oli hienoa päästä testaamaan vasta opittuja asioita suoraan opintojaksoilla. Muokkasinkin monia opintojaksoja niiden kuluessa seuraavaa toteutusta varten saatujen oppien perusteella.
+
+Muistiinpanojen tekeminen osoittautui äärimmäisen tärkeäksi, ja onneksi onnistuin saamaan tähän aikaan itselleni toimivan työtavan ja rakenteen. En oikein ole onnistunut tässä aiemmin missään opinnoissani tähän malliin. Nyt tuntuu siltä, että opintojen aikana opin myös ohjaamaan omaa työtäni nimenomaan muistiinpanojen ja niiden rakenteen kautta. Loppupuolella hyvänä lisänä tähän löytyi tekoälytyökalu muistiinpanojen läpikäymiseen, niitä kun oli ennennäkemättämän paljon omaan aikaisempaan opiskeluhistoriaani nähden.
+
+Ryhmätyöt olivat oivallisia siinä mielessä, että niissä aikataulun ja palautusten noudattaminen oli ryhmäpaineen vuoksi helpompaa. Töihin myös mielellään panosti enemmän, koska kyseessä oli koko ryhmän suoritus. Huomasin itsenäisesti tehtävien opintojaksojen jäävän paitsioon huomattavasti helpommin, minkä seurauksena esimerkiksi kasvatustieteen opintojaksot jäivät viimeistelyn osalta loppusuoralle vaikka ne olisi ollut hyvä suorittaa heti alkuun. Toisaalta taas osasin jo sekä muiden opintojaksojen että tällä välin kertyneen opetuskokemuksen avulla asettaa myös näiden opintojaksojen asioita mielestäni paremmin oikeaan kontekstiin.
+
+Opintojaksojen päätteeksi tehtiin käytännössä aina jonkinlainen reflektiotehtävä, ja tämä opetti minullekin reflektion tärkeyden. Voisi jopa sanoa, että reflektio toimii jollakin tapaa tentin korvikkeena, kun reflektiossa joutuu jäsentelemään ja pohtimaan oppimaansa sekä sitomaan sitä laajempaan kontekstiin. Tätä toimintamallia olen pyrkinyt viemään omillekin opiskelijoilleni omilla opintojaksoillani. Aiemmin en oikein osannut hahmottaa reflektion tärkeyttä, mutta näiden kautta se lopulta avautui.
 
 ## Aviointia oman osaamisen kehittymisestä
 
-Mites se osaaminen nyt sitten ikäänkuin kehittyi?
+Kohtaamisosaaminen on, ainakin omasta mielestäni, ollut ihan hyvää jo ennen opintojakin. Silti myös tähän työn osa-alueeseen sain tätä käsitteleviltä opintojaksoilta hyviä huomioita: pyrin nyt esimerkiksi tarkemmin pohtimaan omia ennakko-olettamuksiani sekä opiskelijoiden että opiskeltavan aihepiirin suhteen ja muokkaamaan käyttäytymistäni siten että oppiminen on kaikille mukavaa, turvallista ja mahdollisimman selkeää.
+
+Iso asia ovat olleet opintojaksojen rakenteet ja rakenteiden suunnittelu. Tämä on asia josta minulla ei ollut aiemmin tarkempaa tietämystä varsinkaan teorian suhteen, mutta myös käytännön esimerkkejä sain opinnoista hyvin irti. Oppien avulla opintojaksojen suunnittelu on selkeä polku ja huomattavasi helpompaa minulle itsellenikin. Huomaan selvästi että tässä asiassa varmuus on lisääntynyt vuoden 2023 opettajan työni aloitusvaiheeseen nähden, jolloin oli hyvin epäselvää se, miten opetettavat asiat tulisi käydä läpi ja asiat esittää. Ongelma ei niinkään ollut substanssin tuntemus, vaan nimenomaan se, miten asiat asetellaan opiskelijoille helposti lähestyttävään muotoon ja vieläpä siten, että konteksti pysyy kasassa muihin tutkinto-ohjelman opintojaksoihin nähden.
+
+Ja tästä pääsemmekin sen hahmottamiseen, miten olennaista koko tutkinto-ohjelmakokonaisuuden hahmottaminen on siinä työyhteisössä, joka ohjelmaa opettaa. Opiskelijoille on erinomaisen tärkeää se että ohjelma on koherentti ja siinä on jatkumo asiasta toiseen. Emme ole tarkemmin järjestelmällisesti asiaa tutkineet, mutta palaute on parantunut ja erityisesti opintojaksojen lopputuotokset ja palautukset ovat laadultaan parempia nyt, kun teemme jatkuvaa yhteistyötä sen suhteen, että linkki opintojaksojen välillä säilyy ja tutkinto-ohjelmassa on selkeä punainen lanka irrallisten opintojaksojen sijaan.
 
 ## Omat tavoitteet ja niiden saavuttaminen
 
 ### Tällaiset tavoitteet asettelin alkupäässä ja ne ovat kotoisin oppimispäiväkirjasta
 
-Pääasiallinen tavoite on suorittaa opinnot ja hankkia opettajan pätevyys koska se ammatissa vaaditaan. Toissijainen tavoite on hyödyntää opintoja suoraan omassa työssä, haluan kuitenkin tehdä mahdollisimman laadukasta opetusta omalla ammattialallani. Katson siis tietyllä tavalla kuuluvani välttämisorientuneeseen tavoiteryhmään, mutta toki otan opinnoista kaiken mikä irti lähtee, ja teen asiat loppuun. Arvosana ei kuitenkaan ole määrittelevä tekijä eikä opinnoissa menestyminen sellaisenaan ole minulle mikään itseisarvo.
+> Pääasiallinen tavoite on suorittaa opinnot ja hankkia opettajan pätevyys koska se ammatissa vaaditaan. Toissijainen tavoite on hyödyntää opintoja suoraan omassa työssä, haluan kuitenkin tehdä mahdollisimman laadukasta opetusta omalla ammattialallani. Katson siis tietyllä tavalla kuuluvani välttämisorientuneeseen tavoiteryhmään, mutta toki otan opinnoista kaiken mikä irti lähtee, ja teen asiat loppuun. Arvosana ei kuitenkaan ole määrittelevä tekijä eikä opinnoissa menestyminen sellaisenaan ole minulle mikään itseisarvo.
+
+Pääasiallinen tavoite tässä toivon mukaan toteutuu, mutta prioriteettijärjestys tavoitteissa on muuttunut. Kärkeen on noussut nimenomaan laadukkaan opetuksen tarjoaminen. Olen huomannut että laadukas ja opettajankoulutuksen oppeja hyödyntävä opetuksen suunnittelu ja toteuttaminen ovat lopulta minullekin yksinkertaisempia, selkeämpiä ja helpompia tapoja toimia. Tämä näyttäisi alustavasti näkyvän opintojaksopalautteissakin. Toisaalta uusien opintojaksojen kanssa on ollut tolkuton kiire toteuttaa, mikä väistämättä näkyy laadussa ja sitä myöten myös palautteissa. En ole onnistunut saavuttamaan aina tavoittelemaani laatua, mutta minusta tämä on sinällään ihan hyvä merkki: tunnistan, missä meni heikosti, ja palautteet tukevat näitä näkemyksiä. Tästä on hyvä parantaa.
+
+Arvosanoja tai hyvää suoritusta en edelleenkään tavoittele, oma menestymiseni ei millään elämän alueella ole missään vaiheessa ollut minulla keskiössä. Sen sijaan kiinnostus opetustyöhön ja *opiskelijoiden* tuloksiin sinänsä on johtanut siihen, että näissä pyrkii mielellään tekemään parhaansa ihan pelkästään sen takia että opiskelijat oppivat ja pääsevät elämässään parhaalla tavalla eteenpäin.
 
 ---
 
