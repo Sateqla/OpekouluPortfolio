@@ -2,7 +2,12 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Users, Telescope, Lightbulb } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 import { Modal } from './Modal';
+
+import oppimisenOhjaaminen from '../content/teaching-themes/oppimisen-ohjaaminen.md?raw';
+import ammatillisenOpettajuudenKehittaminen from '../content/teaching-themes/ammatillisen-opettajuuden-kehittaminen.md?raw';
+import tulevaisuudenTekeminen from '../content/teaching-themes/tulevaisuuden-tekeminen.md?raw';
 
 const themes = [
   {
@@ -10,45 +15,7 @@ const themes = [
     title: 'Oppimisen ohjaaminen',
     description:
       'Believing that every student deserves a voice. I specialize in differentiated instruction that meets the diverse needs of all learners.',
-    longContent: (
-      <div className="space-y-4 text-slate-300">
-        <h1>Oppimisen ohjaaminen</h1>
-        <p>
-          Tiivistys siitä, mikä opintojen perusteella on minun käsitykseni
-          ammatillisesta oppimisen ohjaamisesta.
-        </p>
-        <h4 className="text-white font-bold text-lg mt-6">
-          Kohtaamisosaaminen
-        </h4>
-        <p>
-          Tähän tekstiä kohtaamisosaamisesta ja jonkinlainen synteesi opitusta
-        </p>
-        <h4 className="text-white font-bold text-lg mt-6">
-          Oppimisprosessien ohjausosaaminen
-        </h4>
-        <ul className="list-disc pl-5 space-y-2">
-          <li>
-            <strong>Tähän asiaa</strong> asiaa listaelementti ykköseen.
-          </li>
-          <li>
-            <strong>Toinen asia:</strong> toinen listaelementti.
-          </li>
-          <li>
-            <strong>Kolmas boldattu</strong> Tähän myös tekstiä.
-          </li>
-        </ul>
-        <h4 className="text-white font-bold text-lg mt-6">
-          Ammattipedagoginen osaaminen
-        </h4>
-        <p>
-          Tähän tekstiä ammattipedagogiaan liittyvästä osaamisesta ja
-          jonkinlainen synteesi opitusta
-        </p>
-        <p className="mt-4 italic">
-          "Tähän ehkä joku iskulause joka tiivistää nämä hommat."
-        </p>
-      </div>
-    ),
+    content: oppimisenOhjaaminen,
     icon: <Users className="w-6 h-6" />,
     image:
       'https://images.unsplash.com/photo-1758270704524-596810e891b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
@@ -60,57 +27,7 @@ const themes = [
     title: 'Ammatillisen opettajuuden kehittäminen',
     description:
       'Integrating technology not as a distraction, but as a bridge. I leverage digital tools to enhance collaboration and critical thinking.',
-    longContent: (
-      <div className="space-y-4 text-slate-300">
-        <h1>Ammatillisen opettajuuden kehittäminen</h1>
-        <p>
-          Tähän omaa näkemystä siitä miten ammatillisen opettajan osaaminen
-          kehittyi opintojen aikana ja mitä siitä jäi työkalupakkiin.
-        </p>
-        <h4 className="text-white font-bold text-lg mt-6">
-          Toimijuusosaaminen
-        </h4>
-        <ul className="list-disc pl-5 space-y-2">
-          <li>
-            <strong>Kyky ohjata omaa tekemistä on tärkeää.</strong>{' '}
-            Itseohjautuvuus on tärkeää. On oltava aktiivinen, kyettävä
-            päätöksentekoon ja ottamaan vastuuta vähintään omista opinnoistaan
-            ja tekemisistään. <strong>Miten tuen tätä opiskelijoilla?</strong>
-          </li>
-          <li>
-            <strong>Kehittämisote:</strong> aina on hyvä pyrkiä kehittämään
-            tekemistä ja nostaa ongelmat esiin. Kyseenalaista perustellen,
-            ehdota uusia ratkaisuja.
-          </li>
-          <li>
-            <strong>Sosiaalisuus ja yhteisöllisyys:</strong> Osallistu ja
-            vaikuta omassa (opiskelija)yhteisössäsi. Sama koskee opettajien
-            yhteisöä, kehitä opintojaksoja yhteisesti, alista ne kritiikille ja
-            opi muilta.
-          </li>
-          <li>
-            <strong>Rakenna ammatillinen identiteetti:</strong> Tunne
-            osaamisesi, tiedosta missä olet hyvä ja pyri kehittymään. Uskalla
-            ottaa kantaa, vakuuta ensin itsesi.
-          </li>
-        </ul>
-        <h4 className="text-white font-bold text-lg mt-6">
-          Reflektio-osaaminen
-        </h4>
-        <p>Miten ymmärrän reflektion merkityksen opetuksessa?</p>
-        <ul className="list-disc pl-5 space-y-2">
-          <li>
-            <strong>Oma reflektio:</strong> Miten reflektoin omaa tekemistä,
-            osaamista ja opintojaksoja
-          </li>
-          <li>
-            <strong>Reflektion merkitys opiskelijoille:</strong> Miten opetan
-            opiskelijoita reflektoimaan tekemistään ja oppimistaan.
-          </li>
-        </ul>
-        <p className="mt-4">Tähän taas joku tiivsitys tästä aiheesta.</p>
-      </div>
-    ),
+    content: ammatillisenOpettajuudenKehittaminen,
     icon: <Lightbulb className="w-6 h-6" />,
     image:
       'https://images.unsplash.com/photo-1587037325379-0b8807b41f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
@@ -122,55 +39,7 @@ const themes = [
     title: 'Tulevaisuuden tekeminen',
     description:
       'Teaching the whole child. My approach prioritizes socio-emotional learning, fostering a safe environment for empathy and resilience.',
-    longContent: (
-      <div className="space-y-4 text-slate-300">
-        <h1>Tulevaisuuden tekeminen</h1>
-        <p>
-          Erityisesti ICT-ala muuttuu kiihtyvällä nopeudella. Tulevaisuuden
-          ennakointi on oleellinen osa ammatillisen opettajan tehtäviä. Meidän
-          on pysyttävä ajan tasalla ja pyrittävä suunnittelemaan opinnot sen
-          mukaan, millaista osaamista tarvitaan{' '}
-          <strong>silloin kun opiskelijat valmistuvat</strong>, ei sen mukaan
-          mitä juuri nyt tarvitaan.
-        </p>
-        <h4 className="text-white font-bold text-lg mt-6">
-          Tulevaisuusosaaminen
-        </h4>
-        <ul className="list-disc pl-5 space-y-2">
-          <li>
-            <strong>Koulutusjärjestelmä ja sen asettamat puitteet:</strong>{' '}
-            Yhteiskunnan asettamat reunaehdot koulutusjärjestelmän ja
-            rahoituksen kautta.
-          </li>
-          <li>
-            <strong>Alan kehityksen ennakointi</strong> Alan muutoksen ja
-            työelämän seuranta, työelämäprojektit.
-          </li>
-          <li>
-            <strong>Tulevaisuuden ennakoinnin menetelmäosaaminen:</strong>{' '}
-            Opetussuunnitelmia kehittäessä on järkevä käyttää
-            tulevaisuudentutkimuksen menetelmiä, kun haetaan aiheita ja
-            opetettavia asioita jotta osaaminen on valmistuessa relevanttia.
-            Mikä tulee säilymään, mikä on jo opintojakson jälkeen vanhaa tietoa?
-          </li>
-        </ul>
-        <h4 className="text-white font-bold text-lg mt-6">
-          Kehittämisosaaminen
-        </h4>
-        <p>
-          Kehittämisosaamista tarvitaan sekä koulutuksen yleisen tason
-          kehittämisessä annetuissa puitteissa, mutta myös projektityössä, joka
-          on usein osa ammattikorkeakouluopettajan työtä projekteissa.
-        </p>
-        <p>
-          Toisaalta ammatillisen opettajan työhön kuuluu hyvin vahvasti
-          koulutuksen kehttäminen osana omaa opetusta ja tutkinto-ohjelmaa.
-        </p>
-        <p className="mt-4, italic">
-          Ennustaminen on vaikeaa. Etenkin tulevaisuuden.
-        </p>
-      </div>
-    ),
+    content: tulevaisuudenTekeminen,
     icon: <Telescope className="w-6 h-6" />,
     image:
       'https://images.unsplash.com/photo-1666198259234-f7033c78b94e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
@@ -260,7 +129,39 @@ export function TeachingThemes() {
       </div>
 
       <Modal isOpen={!!selectedTheme} onClose={() => setSelectedTheme(null)}>
-        {selectedTheme?.longContent}
+        <div className="space-y-4">
+          <div className="text-slate-300 leading-relaxed text-lg">
+            <ReactMarkdown
+              components={{
+                hr: () => <hr className="border-t border-slate-800 my-6" />,
+                h1: ({ children }) => (
+                  <h1 className="text-white font-bold text-3xl mb-4">{children}</h1>
+                ),
+                h4: ({ children }) => (
+                  <h4 className="text-white font-bold text-lg mt-6 mb-3">{children}</h4>
+                ),
+                blockquote: ({ children }) => (
+                  <blockquote className="text-slate-400 italic border-l-2 border-slate-700 pl-4">
+                    {children}
+                  </blockquote>
+                ),
+                img: ({ src, alt }) => (
+                  <img
+                    src={src}
+                    alt={alt || ''}
+                    className="w-full rounded-xl my-6 border border-slate-800"
+                    loading="lazy"
+                  />
+                ),
+                ul: ({ children }) => (
+                  <ul className="list-disc pl-5 space-y-2">{children}</ul>
+                ),
+              }}
+            >
+              {selectedTheme?.content || ''}
+            </ReactMarkdown>
+          </div>
+        </div>
       </Modal>
     </section>
   );
