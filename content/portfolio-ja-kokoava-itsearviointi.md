@@ -40,4 +40,4 @@ Arvosanoja tai hyvää suoritusta en edelleenkään tavoittele, oma menestymisen
 
 # Kokoava itsearviointi
 
-Tähän itsearvioinnin teksti.
+Ammatillisen opettajankoulutuksen kokoava itsearviointi löytyy [tämän linkin takaa](images/content/opettajaopintojen-kokoava-itsearviointi.pdf).
